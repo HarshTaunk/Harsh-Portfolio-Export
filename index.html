@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<title>Harsh Taunk — Product Designer</title>
+<meta name="description" content="Harsh Taunk is a product designer turning messy problems into products people actually want to use — healthcare, legal tech, IoT and consumer apps.">
+<meta property="og:title" content="Harsh Taunk — Product Designer">
+<meta property="og:description" content="I turn messy problems into products people actually want to use.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preload" as="image" href="assets/about/portrait-color.jpg">
+<script src="./stories-data.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+html,body{overflow-x:clip;max-width:100%}img,svg,video,image-slot{max-width:100%}
+:root{--accent:#D9532B;--ink:#171614;--bg:#F4F1EC;--paper:#FBF9F6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Space Grotesk",Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--ink);text-decoration:none}
+a:hover{color:var(--accent)}
+@keyframes hp-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
+@keyframes hp-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes hp-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes hp-blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes hp-draw{from{width:0}to{width:100%}}
+[data-navlink]:hover,[data-resume]:hover{color:var(--ink)!important}
+[data-cta]:hover{background:#34312D!important;color:#FBF9F6!important}
+a:hover>[data-arr]{transform:translateX(3px)}
+[data-mc]:hover [data-arr],[data-mc]:active [data-arr]{transform:translate(2px,-2px)!important}
+[data-mlink]:hover [data-mtxt],[data-mlink]:active [data-mtxt]{transform:translateX(4px)}
+[data-mlink]:hover [data-mline],[data-mlink]:active [data-mline]{width:40px!important}
+#hp-nav a:focus-visible,#hp-nav button:focus-visible,#hp-menu a:focus-visible,#hp-menu button:focus-visible{outline:1px solid var(--accent);outline-offset:3px}
+@media (max-width:1023px){#hp-links{gap:18px!important}#hp-links a{font-size:10.5px!important;letter-spacing:.15em!important}}
+@media (max-width:767px){[data-nav-desk]{display:none!important}[data-nav-mob]{display:inline-flex!important}#hp-nav-in{height:60px!important}[data-cta]{height:40px!important;padding:0 14px!important;font-size:10.5px!important}}
+@media (prefers-reduced-motion:reduce){#hp-nav *,#hp-menu *{transition:none!important}}
+[data-wc]{transition:transform .22s ease-out,box-shadow .22s ease-out,border-color .22s ease-out}
+[data-wi]{transition:transform .3s ease-out .06s}
+[data-wt]{transition:transform .22s ease-out .08s}
+[data-wa]{opacity:0;transform:translate(-6px,4px);transition:opacity .22s ease-out .08s,transform .22s ease-out .08s}
+[data-wl]{transition:width .25s ease-out .1s}
+[data-wg]{transition:transform .2s ease-out .12s}
+[data-tag]{transition:border-color .2s ease-out .12s,color .2s ease-out .12s}
+[data-wca]{transition:transform .2s ease-out .14s}
+[data-wcap]{transition:transform .3s ease-out .06s}
+@media (min-width:768px){[data-wc]{height:clamp(460px,38vw,520px)}}
+@media (hover:hover) and (pointer:fine){
+[data-wc]:hover{transform:translateY(-4px)}
+[data-wc="light"]:hover{box-shadow:0 22px 40px -30px rgba(60,40,20,.35);border-color:rgba(217,83,43,.55)!important}
+[data-wc="dark"]:hover{box-shadow:0 22px 40px -28px rgba(0,0,0,.55);border-color:rgba(217,83,43,.6)!important}
+[data-wc]:hover [data-wi]{transform:translateY(-5px) scale(1.015)}
+[data-wc]:hover [data-wt]{transform:translateX(2px)}
+[data-wc]:hover [data-wa]{opacity:1;transform:none}
+[data-wc]:hover [data-wl]{width:100%!important}
+[data-wc]:hover [data-wg]{transform:translateY(-1px)}
+[data-wc="light"]:hover [data-tag]{border-color:rgba(23,22,20,.4)!important;color:rgba(23,22,20,.85)!important}
+[data-wc="dark"]:hover [data-tag]{border-color:rgba(251,249,246,.45)!important;color:var(--paper)!important}
+[data-wc]:hover [data-wca]{transform:translateX(4px)}
+[data-wc]:hover [data-wcap]{transform:translateY(-2px)}}
+[data-wc]:focus-visible{outline:1px solid var(--accent);outline-offset:4px;border-color:rgba(217,83,43,.55)!important}
+[data-wc]:focus-visible [data-wa]{opacity:1;transform:none}
+[data-wc]:focus-visible [data-wl]{width:100%!important}
+[data-wc]:focus-visible [data-wca]{transform:translateX(4px)}
+@media (hover:none){[data-wc]{transition:transform .17s ease-out}[data-wc]:active{transform:scale(.985)}[data-wc]:active [data-wi]{transform:translateY(-3px);transition-delay:0s}}
+@media (max-width:1023px){[data-wc]{gap:28px!important}[data-wc]{padding:22px!important;gap:24px!important}[data-wc] h3{font-size:clamp(30px,4.2vw,42px)!important}[data-wc] p{font-size:14px!important;line-height:1.55!important}}
+@media (max-width:767px){[data-wc]{grid-template-columns:minmax(0,1fr)!important;gap:24px!important;padding:22px 18px!important;height:auto}[data-wtext]{order:1!important;min-height:0!important;gap:18px!important}[data-wtext]>*{margin-top:0!important}[data-wtext]>:last-child{margin-top:6px!important}[data-wimg]{order:2!important}}
+@media (prefers-reduced-motion:reduce){[data-wc],[data-wc] *{transform:none!important;transition:opacity .2s ease,border-color .2s ease,color .2s ease!important}}
+[data-ab-photo]{transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .5s ease}
+[data-ab-photo]{transition:transform .6s cubic-bezier(.22,1,.36,1),box-shadow .6s ease}
+@media (hover:hover){[data-ab-photo][data-ab-done]:hover{transform:rotate(-1.5deg) translateY(-2px)!important;box-shadow:0 1px 2px rgba(23,22,20,.08),0 20px 34px -20px rgba(23,22,20,.34)!important}}
+[data-ab-photo]:focus-visible{outline:1px solid var(--accent);outline-offset:6px}
+@media (prefers-reduced-motion:reduce){[data-ab-photo],[data-ab-photo][data-ab-done]:hover{transform:rotate(-2.5deg)!important;transition:none!important}[data-ab-color]{transition:opacity .12s linear!important}}
+@media (max-width:1023px){[data-ab-left]{grid-column:1/8!important}[data-ab-right]{grid-column:8/13!important}[data-ab-cons]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media (max-width:767px){[data-br]{display:none}[data-ab-hero]{display:flex!important;flex-direction:column;align-items:stretch!important}[data-ab-right]{padding-top:8px!important;align-items:stretch!important;gap:18px}[data-ab-photo]{order:1;align-self:center;width:min(100%,440px)!important;margin-bottom:24px!important}[data-ab-note]{position:static!important;order:2;align-self:flex-end;transform:rotate(2deg)!important}[data-ab-note] svg{transform:scaleY(-1)}[data-ab-mid]{grid-template-columns:minmax(0,1fr)!important}[data-ab-me]{padding:40px 0!important;border-right:0!important;border-bottom:1px solid rgba(23,22,20,.12)}[data-ab-care]{padding:40px 0!important}}
+[data-pv]:focus-visible{outline:1px solid var(--accent);outline-offset:3px}
+@media (hover:hover){#about span[data-pv][style*="rgba(217,83,43,.08)"]:hover{background:rgba(217,83,43,.16)!important}[data-pvrow] [data-pv]:hover{color:var(--accent)!important;transform:translateX(2px)}[data-ab-resume]:hover [data-rs-u]{transform:scaleX(1)!important}[data-ab-resume]:hover [data-rs-t]{transform:translateX(1px);color:var(--accent)}[data-ab-resume]:hover [data-rs-a]{transform:translate(2px,3px);color:var(--accent)}}
+[data-hpeek]{opacity:0;visibility:hidden;transform:translateY(8px) scale(.94) rotate(2deg);transform-origin:0 100%;transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .35s cubic-bezier(.22,1,.36,1),visibility 0s linear .35s}
+@media (hover:hover){[data-hname]:hover [data-hpeek]{opacity:1;visibility:visible;transform:rotate(4deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .35s cubic-bezier(.22,1,.36,1),visibility 0s}}
+[data-hname]:focus-visible [data-hpeek],[data-hname][data-on] [data-hpeek]{opacity:1;visibility:visible;transform:rotate(4deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .35s cubic-bezier(.22,1,.36,1),visibility 0s}
+[data-hname]:focus-visible{outline:1px solid var(--accent);outline-offset:4px}
+@media (prefers-reduced-motion:reduce){[data-hpeek]{transition:opacity .15s linear!important;transform:rotate(4deg)!important}}
+[data-ncard]:focus-visible,[data-viewer] button:focus-visible{outline:1px solid var(--accent);outline-offset:4px}
+@media (hover:hover){[data-ncard]:hover [data-ncover]{transform:scale(1.03)}[data-ncard]:hover [data-ncue]{opacity:1;transform:none}[data-ncard]:hover [data-ntitle]{transform:translateX(2px)}[data-ncard]:hover [data-narr],[data-sv-nextstory]:hover [data-narr]{transform:translateX(4px)}[data-ncard]:hover [data-narr]{border-color:var(--accent);color:var(--accent)}[data-fbox]:hover [data-fimg]{transform:scale(1.01)}[data-fbox]:hover [data-fnext]{opacity:1}[data-sv-arrow]:hover:not([disabled]){border-color:var(--accent)!important;color:var(--accent)!important}[data-thumb]:hover [data-thumb-img]{opacity:1!important}}
+[data-sv-arrow][disabled]{opacity:.25;cursor:default!important}
+[data-thumb] [data-thumb-img]{opacity:.55}
+[data-thumb][data-active="true"] [data-thumb-img]{opacity:1;border-color:var(--accent)!important}
+[data-thumb][data-active="true"] span:last-child{color:var(--accent)!important}
+@media (max-width:1023px){[data-nt-grid]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media (max-width:767px){[data-nt-grid]{grid-template-columns:minmax(0,1fr)!important;gap:44px!important;padding:0 4%}[data-nt-h],[data-nt-p]{grid-column:1/-1!important}[data-nt-note]{display:none}[data-vdesk]{display:none!important}[data-vmob]{display:flex!important}}
+@media (prefers-reduced-motion:reduce){[data-ncover],[data-ntitle],[data-narr],[data-fimg]{transition:opacity .2s linear!important;transform:none!important}}
+@media (hover:hover){[data-ts-done] [data-tcard]:hover [data-tin]{transform:translateY(-3px);border-color:rgba(23,22,20,.3)!important;background:#fff!important}[data-ts-done] [data-tcard]:hover [data-tico]{transform:translateY(-1px)}}
+[data-ts-done] [data-ts-line]{opacity:1!important;transform:none!important}
+[data-ts-stage]{height:clamp(240px,24vw,300px)!important}@media (hover:hover){[data-ts-done] [data-tcard]:hover [data-tico] img{transform:scale(1.03)}}[data-tico] img{transition:transform .18s ease-out}
+@media (max-width:640px){[data-tin]{justify-content:center!important;padding:0!important;height:56px!important;gap:0!important}[data-tname]{display:none!important}[data-tico] img{max-width:26px!important;max-height:26px!important}[data-tico]{width:28px!important;height:28px!important}[data-ts-row]{gap:10px!important}[data-ts-stage]{height:clamp(200px,58vw,240px)!important}}@media (max-width:560px){[data-ts-line]{font-size:9.5px!important;gap:8px!important;letter-spacing:.14em!important}}
+@media (hover:hover){[data-scard]:hover{transform:translateY(-3px);border-color:rgba(23,22,20,.2)!important}[data-scard]:hover [data-spost]{translate:0 -3px}[data-scard]:hover [data-simgw]{transform:scale(1.02)}[data-scard]:hover [data-sweb]{transform:rotate(.5deg) translateY(-3px)!important}[data-sbtn]:hover{border-color:rgba(23,22,20,.55)!important}[data-sbtn]:hover [data-sarr],[data-scard]:hover [data-shead] [data-sarr]{transform:translateX(5px)}[data-sbtn]:hover [data-ext],[data-scard]:hover [data-shead] [data-ext]{transform:translate(1px,-1px) rotate(8deg)}}
+[data-spost]{transition:transform .45s cubic-bezier(.22,1,.36,1),translate .45s cubic-bezier(.22,1,.36,1)!important}
+[data-sweb]{justify-self:end;width:100%;max-width:330px}[data-slb]{align-items:center!important}
+@media (max-width:1023px){[data-sgrid]{grid-template-columns:minmax(0,1fr)!important}[data-slb] [data-spost]{width:clamp(120px,16vw,150px)!important}[data-shl],[data-shr]{grid-column:1/-1!important}}
+@media (max-width:560px){[data-slb]{grid-template-columns:minmax(0,1fr)!important}[data-spost]{width:118px!important}[data-snote]{position:static!important;margin-top:10px}[data-slb],[data-scard]>div[style*="padding-bottom:36px"]{padding-bottom:0!important}}
+@media (prefers-reduced-motion:reduce){[data-scard],[data-spost],[data-simgw],[data-sweb],[data-sarr],[data-ext]{transition:none!important}}
+[data-soc]:focus-visible{outline:1px solid var(--accent);outline-offset:3px}
+@media (hover:hover){[data-soc]:hover{transform:translateY(-3px);border-color:var(--accent)!important}[data-soc]:hover [data-soci]{transform:scale(1.06)}[data-soc]:hover [data-socl],[data-soc]:focus-visible [data-socl]{opacity:1;transform:translate(-50%,0)}}
+@media (max-width:480px){[data-soc]{width:42px!important;height:42px!important;border-radius:10px!important}}
+@media (max-height:720px){[data-hero-in]{gap:14px!important}[data-hero]{padding-top:16px!important;padding-bottom:32px!important}}
+@media (max-width:767px){[data-hero]{min-height:calc(100svh - 61px)!important}}
+@media (max-width:640px){[data-li-note]{right:auto!important;left:18px!important;top:calc(100% + 14px)!important;bottom:auto!important;font-size:15px!important;text-align:left!important;flex-direction:row-reverse!important;align-items:flex-start!important;gap:2px!important;transform:rotate(-2deg)!important}[data-li-arr]{width:24px!important;height:22px!important;transform:translateY(-10px) scaleX(-1)!important}[data-hero-resume]{margin-top:50px!important}}
+[data-hero-resume],[data-hero-resume]:hover,[data-ab-resume],[data-ab-resume]:hover{color:#FBF9F6!important}
+@media (max-width:767px){[data-fsoc]{justify-content:center;width:44px;height:44px;border:1px solid rgba(251,249,246,.2);border-radius:12px}[data-ftxt]{display:none}[data-fico]{display:inline-flex!important}[data-fsoc]:first-child{order:0}}
+@media (max-width:480px){[data-hpill]{gap:7px!important;min-height:30px!important;padding:5px 11px 5px 9px!important;font-size:9px!important;letter-spacing:.09em!important;max-width:100%}}
+@keyframes hp-scue{0%{transform:translateY(-14px)}60%,100%{transform:translateY(34px)}}
+@media (prefers-reduced-motion:reduce){[data-scue] span span{animation:none!important;transform:translateY(10px)}}
+@media (max-height:620px){[data-scue]{display:none!important}}
+@media (max-width:767px){[data-frow]{gap:12px!important;justify-content:flex-start!important}[data-fcred]{flex:1 0 100%;margin-left:0!important;margin-top:20px;padding-top:20px;border-top:1px solid rgba(251,249,246,.1);font-size:10px!important;line-height:1.6}}
+@keyframes hp-rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+</style>
+</helmet>
+
+<div id="hp-cursor" style="position:fixed;top:0;left:0;z-index:99;pointer-events:none;display:flex;align-items:center;gap:6px;padding:7px 12px;border-radius:100px;background:var(--accent);color:#fff;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:0;transform:translate(-50%,-160%) scale(.6);transition:opacity .25s ease,transform .25s cubic-bezier(.2,.8,.2,1)">
+  <span id="hp-cursor-label">view</span>
+  <span style="font-size:12px;line-height:1">&#8599;</span>
+</div>
+
+<nav id="hp-nav" aria-label="Primary" style="position:sticky;top:0;z-index:40;background:rgba(244,241,236,0);border-bottom:1px solid rgba(23,22,20,.06);transition:background .35s ease,border-color .35s ease,box-shadow .35s ease">
+  <div id="hp-nav-in" style="max-width:1320px;margin:0 auto;height:68px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:0 clamp(16px,4vw,56px);transition:height .35s ease">
+    <a href="#top" data-navtop aria-label="Harsh — back to top" style="display:inline-flex;align-items:center;gap:10px;min-height:44px;font-family:'Instrument Serif',serif;font-size:24px;line-height:1;letter-spacing:-.005em;white-space:nowrap"><span aria-hidden="true" style="width:9px;height:9px;border-radius:50%;background:var(--accent)"></span>Harsh</a>
+    <div style="display:flex;align-items:center;gap:clamp(20px,2.6vw,36px)">
+      <div id="hp-links" data-nav-desk style="position:relative;display:flex;align-items:center;gap:clamp(18px,2.4vw,34px)">
+        <a href="#work" data-navlink="work" style="position:relative;display:inline-flex;align-items:center;height:44px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.62);transition:color .25s ease">Work</a>
+        <a href="#side" data-navlink="side" style="position:relative;display:inline-flex;align-items:center;height:44px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.62);transition:color .25s ease">Builds</a>
+        <a href="#about" data-navlink="about" style="position:relative;display:inline-flex;align-items:center;height:44px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.62);transition:color .25s ease">About me</a>
+        <a href="#noticed" data-navlink="noticed" style="position:relative;display:inline-flex;align-items:center;height:44px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.62);transition:color .25s ease">Frames</a>
+        <span id="hp-uline" aria-hidden="true" style="position:absolute;left:0;bottom:8px;height:1px;width:0;background:var(--accent);opacity:0;transition:transform .45s cubic-bezier(.65,0,.35,1),width .45s cubic-bezier(.65,0,.35,1),opacity .25s ease"></span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <a href="assets/Harsh_Resume_2026.pdf" target="_blank" rel="noopener" download="Harsh_Resume_2026.pdf" data-cta style="display:inline-flex;align-items:center;gap:10px;height:40px;padding:0 18px;border-radius:100px;background:var(--ink);color:#FBF9F6;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;white-space:nowrap;transition:background .22s ease">Resume <span data-arr aria-hidden="true" style="font-size:13px;line-height:1;transition:transform .22s ease">&#8595;</span></a>
+        <button id="hp-burger" data-nav-mob type="button" aria-label="Open menu" aria-expanded="false" aria-controls="hp-menu" style="display:none;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border-radius:50%;border:1px solid rgba(23,22,20,.18);background:transparent;color:var(--ink);cursor:pointer;flex-shrink:0"><svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true"><path d="M0 1h16M0 6h16M0 11h16" stroke="currentColor" stroke-width="1.2"></path></svg></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="hp-menu" role="dialog" aria-modal="true" aria-label="Menu" aria-hidden="true" style="position:fixed;inset:0;z-index:95;visibility:hidden;pointer-events:none">
+  <div id="hp-menu-bg" style="position:absolute;inset:0;background:rgba(23,22,20,.35);opacity:0;transition:opacity .4s ease"></div>
+  <div id="hp-menu-panel" style="position:absolute;inset:0;display:flex;flex-direction:column;overflow-y:auto;background:var(--bg);clip-path:inset(0 0 100% 0);transition:clip-path .45s cubic-bezier(.65,0,.35,1)">
+    <div style="display:flex;align-items:center;justify-content:space-between;height:64px;padding:0 clamp(16px,5vw,24px);border-bottom:1px solid rgba(23,22,20,.08);flex-shrink:0">
+      <a href="#top" data-mlink="top" style="display:inline-flex;align-items:center;gap:10px;min-height:44px;font-family:'Instrument Serif',serif;font-size:24px;line-height:1"><span aria-hidden="true" style="width:9px;height:9px;border-radius:50%;background:var(--accent)"></span>Harsh</a>
+      <button id="hp-close" type="button" aria-label="Close menu" style="display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border-radius:50%;border:1px solid rgba(23,22,20,.18);background:transparent;color:var(--ink);cursor:pointer;opacity:0;transform:rotate(-45deg);transition:opacity .3s ease,transform .35s cubic-bezier(.2,.8,.2,1)"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.2"></path></svg></button>
+    </div>
+    <div style="display:flex;flex-direction:column;padding:clamp(24px,5vh,40px) clamp(16px,5vw,24px) 0">
+      <a href="#work" data-mlink="work" data-mi style="position:relative;display:flex;align-items:center;min-height:52px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:clamp(20px,6vw,26px);letter-spacing:.14em;color:rgba(23,22,20,.62);opacity:0;transform:translateY(14px);transition:opacity .38s cubic-bezier(.2,.8,.2,1),transform .38s cubic-bezier(.2,.8,.2,1),color .25s ease"><span data-mtxt style="display:inline-block;transition:transform .25s ease">Work</span><span data-mline style="position:absolute;left:0;bottom:8px;height:1px;width:0;background:var(--accent);transition:width .3s cubic-bezier(.2,.8,.2,1)"></span></a>
+      <a href="#side" data-mlink="side" data-mi style="position:relative;display:flex;align-items:center;min-height:52px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:clamp(20px,6vw,26px);letter-spacing:.14em;color:rgba(23,22,20,.62);opacity:0;transform:translateY(14px);transition:opacity .38s cubic-bezier(.2,.8,.2,1),transform .38s cubic-bezier(.2,.8,.2,1),color .25s ease"><span data-mtxt style="display:inline-block;transition:transform .25s ease">Builds</span><span data-mline style="position:absolute;left:0;bottom:8px;height:1px;width:0;background:var(--accent);transition:width .3s cubic-bezier(.2,.8,.2,1)"></span></a>
+      <a href="#about" data-mlink="about" data-mi style="position:relative;display:flex;align-items:center;min-height:52px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:clamp(20px,6vw,26px);letter-spacing:.14em;color:rgba(23,22,20,.62);opacity:0;transform:translateY(14px);transition:opacity .38s cubic-bezier(.2,.8,.2,1),transform .38s cubic-bezier(.2,.8,.2,1),color .25s ease"><span data-mtxt style="display:inline-block;transition:transform .25s ease">About me</span><span data-mline style="position:absolute;left:0;bottom:8px;height:1px;width:0;background:var(--accent);transition:width .3s cubic-bezier(.2,.8,.2,1)"></span></a>
+      <a href="#noticed" data-mlink="noticed" data-mi style="position:relative;display:flex;align-items:center;min-height:52px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:clamp(20px,6vw,26px);letter-spacing:.14em;color:rgba(23,22,20,.62);opacity:0;transform:translateY(14px);transition:opacity .38s cubic-bezier(.2,.8,.2,1),transform .38s cubic-bezier(.2,.8,.2,1),color .25s ease"><span data-mtxt style="display:inline-block;transition:transform .25s ease">Frames</span><span data-mline style="position:absolute;left:0;bottom:8px;height:1px;width:0;background:var(--accent);transition:width .3s cubic-bezier(.2,.8,.2,1)"></span></a>
+      <a href="assets/Harsh_Resume_2026.pdf" target="_blank" rel="noopener" download="Harsh_Resume_2026.pdf" data-mlink="resume" data-mi style="position:relative;display:flex;align-items:center;min-height:52px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:clamp(20px,6vw,26px);letter-spacing:.14em;color:rgba(23,22,20,.62);opacity:0;transform:translateY(14px);transition:opacity .38s cubic-bezier(.2,.8,.2,1),transform .38s cubic-bezier(.2,.8,.2,1),color .25s ease"><span data-mtxt style="display:inline-block;transition:transform .25s ease">Resume</span><span data-mline style="position:absolute;left:0;bottom:8px;height:1px;width:0;background:var(--accent);transition:width .3s cubic-bezier(.2,.8,.2,1)"></span></a>
+    </div>
+    <div style="display:flex;flex-direction:column;margin-top:auto;padding:clamp(28px,5vh,44px) clamp(16px,5vw,24px) clamp(24px,5vh,40px)">
+      <div data-mconn style="padding:0 0 14px;border-top:1px solid rgba(23,22,20,.14);padding-top:28px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:12px;font-weight:700;letter-spacing:.22em;color:var(--accent);opacity:0;transition:opacity .3s ease">Let’s connect</div>
+      <a href="mailto:harshtaunk111@gmail.com" target="_blank" rel="noopener noreferrer" data-mc style="display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:14px;min-height:48px;border-top:1px solid rgba(23,22,20,.08);opacity:0;transform:translateY(8px);transition:opacity .3s ease,transform .3s cubic-bezier(.2,.8,.2,1)"><i class="fa-regular fa-envelope" aria-hidden="true" style="font-size:17px;color:var(--ink);text-align:center"></i><span style="font-family:'Instrument Serif',serif;font-size:19px;line-height:1.2;overflow-wrap:anywhere">harshtaunk111@gmail.com</span><span data-arr aria-hidden="true" style="font-size:14px;color:rgba(23,22,20,.5);transition:transform .25s ease">&#8599;</span></a>
+      <a href="tel:+917987970629" target="_blank" rel="noopener noreferrer" data-mc style="display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:14px;min-height:48px;border-top:1px solid rgba(23,22,20,.08);opacity:0;transform:translateY(8px);transition:opacity .3s ease,transform .3s cubic-bezier(.2,.8,.2,1)"><i class="fa-solid fa-phone" aria-hidden="true" style="font-size:17px;color:var(--ink);text-align:center"></i><span style="font-family:'Instrument Serif',serif;font-size:19px;line-height:1.2;overflow-wrap:anywhere">+91 7987970629</span><span data-arr aria-hidden="true" style="font-size:14px;color:rgba(23,22,20,.5);transition:transform .25s ease">&#8599;</span></a>
+      <a href="https://www.linkedin.com/in/harshtaunk/" target="_blank" rel="noopener noreferrer" data-mc style="display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:14px;min-height:48px;border-top:1px solid rgba(23,22,20,.08);opacity:0;transform:translateY(8px);transition:opacity .3s ease,transform .3s cubic-bezier(.2,.8,.2,1)"><i class="fa-brands fa-linkedin" aria-hidden="true" style="font-size:17px;color:var(--ink);text-align:center"></i><span style="font-family:'Instrument Serif',serif;font-size:19px;line-height:1.2;overflow-wrap:anywhere">LinkedIn</span><span data-arr aria-hidden="true" style="font-size:14px;color:rgba(23,22,20,.5);transition:transform .25s ease">&#8599;</span><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">(opens in new tab)</span></a>
+      <a href="https://www.instagram.com/harsh_010501/" target="_blank" rel="noopener noreferrer" data-mc style="display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:14px;min-height:48px;border-top:1px solid rgba(23,22,20,.08);opacity:0;transform:translateY(8px);transition:opacity .3s ease,transform .3s cubic-bezier(.2,.8,.2,1)"><i class="fa-brands fa-instagram" aria-hidden="true" style="font-size:17px;color:var(--ink);text-align:center"></i><span style="font-family:'Instrument Serif',serif;font-size:19px;line-height:1.2;overflow-wrap:anywhere">Instagram</span><span data-arr aria-hidden="true" style="font-size:14px;color:rgba(23,22,20,.5);transition:transform .25s ease">&#8599;</span><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">(opens in new tab)</span></a>
+      <a href="https://x.com/HARSHTAUNK1" target="_blank" rel="noopener noreferrer" data-mc style="display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:14px;min-height:48px;border-top:1px solid rgba(23,22,20,.08);opacity:0;transform:translateY(8px);transition:opacity .3s ease,transform .3s cubic-bezier(.2,.8,.2,1)"><i class="fa-brands fa-x-twitter" aria-hidden="true" style="font-size:17px;color:var(--ink);text-align:center"></i><span style="font-family:'Instrument Serif',serif;font-size:19px;line-height:1.2;overflow-wrap:anywhere">X</span><span data-arr aria-hidden="true" style="font-size:14px;color:rgba(23,22,20,.5);transition:transform .25s ease">&#8599;</span><span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">(opens in new tab)</span></a>
+    </div>
+  </div>
+</div>
+
+<header id="top" data-hero style="position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center;min-height:calc(100vh - 69px);min-height:calc(100svh - 69px);padding:clamp(24px,5vh,72px) clamp(20px,4vw,56px) clamp(40px,7vh,80px)">
+  <div data-hero-in style="width:100%;max-width:1320px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:clamp(16px,3.4vh,40px)">
+
+    <a data-hpill href="https://www.linkedin.com/in/harshtaunk/" target="_blank" rel="noopener noreferrer" style="white-space:nowrap;display:flex;align-items:center;gap:10px;min-height:36px;padding:7px 14px 7px 10px;border:1px solid rgba(23,22,20,.16);border-radius:100px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:rgba(23,22,20,.66);transition:border-color .2s ease,color .2s ease" style-hover="border-color:var(--accent);color:var(--ink)">
+      <span style="width:7px;height:7px;border-radius:50%;background:var(--accent);animation:hp-pulse 2.2s ease-in-out infinite"></span>
+      Open to making something useful &#8599;
+    </a>
+
+    <h1 style="margin:0;width:100%;align-self:stretch;text-align:center;font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:clamp(46px,12vw,168px);line-height:1;letter-spacing:-.025em;padding-bottom:.08em;text-wrap:balance">
+      Hey, I&#8217;m <span data-hname tabindex="0" role="button" aria-label="Harsh — show photo" style="position:relative;display:inline-block;font-style:italic;color:var(--accent);cursor:pointer;-webkit-tap-highlight-color:transparent">Harsh<span data-hpeek aria-hidden="true" style="position:absolute;z-index:20;left:62%;bottom:78%;width:clamp(118px,11vw,176px);padding:7px 7px 26px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 18px 32px -18px rgba(23,22,20,.4);pointer-events:none;font-style:normal;text-align:left;line-height:1"><img src="assets/about/portrait-color.jpg" alt="" draggable="false" style="display:block;width:100%;aspect-ratio:880/1089;object-fit:cover"><span style="position:absolute;left:10px;bottom:6px;font-family:'Caveat',cursive;font-size:clamp(14px,1.2vw,17px);letter-spacing:0;color:rgba(23,22,20,.65)">that’s me.</span></span></span>.
+    </h1>
+
+    <p style="margin:0;max-width:28ch;text-align:center;font-family:'Space Grotesk',sans-serif;font-weight:500;font-size:clamp(18px,2.6vw,32px);line-height:1.18;letter-spacing:-.02em;text-wrap:pretty">
+      I turn messy problems into products people actually want to use.
+    </p>
+
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:rgba(23,22,20,.55)">
+      <span>Explore</span><span style="color:var(--accent)">&#8594;</span>
+      <span>Organize</span><span style="color:var(--accent)">&#8594;</span>
+      <span style="font-style:italic;font-family:'Instrument Serif',serif;font-size:17px;letter-spacing:0;text-transform:none;color:var(--accent)">Build</span>
+    </div>
+
+    <div data-socrow style="display:flex;align-items:center;justify-content:center;gap:clamp(14px,2.4vw,28px);width:100%;max-width:840px;margin-top:4px;padding-bottom:18px">
+      <span aria-hidden="true" style="flex:1 1 60px;min-width:16px;height:1px;background:rgba(23,22,20,.14)"></span>
+      <div style="display:flex;align-items:center;gap:clamp(8px,1.6vw,18px)">
+        <a href="https://www.linkedin.com/in/harshtaunk/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" data-soc style="position:relative;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid rgba(23,22,20,.12);border-radius:12px;background:#FBF9F6;transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s ease"><span data-soci style="display:flex;transition:transform .25s cubic-bezier(.22,1,.36,1)"><i class="fa-brands fa-linkedin" style="font-size:20px;color:#0A66C2"></i></span><span data-socl aria-hidden="true" style="position:absolute;top:calc(100% + 8px);left:50%;transform:translate(-50%,-3px);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:9px;letter-spacing:.16em;color:var(--accent);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .25s cubic-bezier(.22,1,.36,1)">LinkedIn</span><span data-li-note aria-hidden="true" style="position:absolute;right:calc(100% + 6px);top:100%;display:flex;align-items:flex-start;gap:4px;font-family:'Caveat',cursive;font-size:19px;line-height:1.02;color:rgba(23,22,20,.62);white-space:nowrap;text-align:right;transform:rotate(3deg);pointer-events:none"><span>most active here &#8212;<br>let&#8217;s connect!</span><svg data-li-arr width="34" height="30" viewBox="0 0 34 30" fill="none" style="flex-shrink:0;transform:translateY(-16px);color:var(--accent)"><path d="M3 27C10 25 20 20 24 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path><path d="M18.5 9.5L24 5l3 6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+        <a href="https://www.instagram.com/harsh_010501/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-soc style="position:relative;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid rgba(23,22,20,.12);border-radius:12px;background:#FBF9F6;transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s ease"><span data-soci style="display:flex;transition:transform .25s cubic-bezier(.22,1,.36,1)"><i class="fa-brands fa-instagram" style="font-size:20px;color:#E1306C"></i></span><span data-socl aria-hidden="true" style="position:absolute;top:calc(100% + 8px);left:50%;transform:translate(-50%,-3px);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:9px;letter-spacing:.16em;color:var(--accent);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .25s cubic-bezier(.22,1,.36,1)">Instagram</span></a>
+        <a href="https://x.com/HARSHTAUNK1" target="_blank" rel="noopener noreferrer" aria-label="X" data-soc style="position:relative;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid rgba(23,22,20,.12);border-radius:12px;background:#FBF9F6;transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s ease"><span data-soci style="display:flex;transition:transform .25s cubic-bezier(.22,1,.36,1)"><i class="fa-brands fa-x-twitter" style="font-size:18px;color:#111"></i></span><span data-socl aria-hidden="true" style="position:absolute;top:calc(100% + 8px);left:50%;transform:translate(-50%,-3px);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:9px;letter-spacing:.16em;color:var(--accent);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .25s cubic-bezier(.22,1,.36,1)">X</span></a>
+        <a href="mailto:harshtaunk111@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" data-soc style="position:relative;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid rgba(23,22,20,.12);border-radius:12px;background:#FBF9F6;transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s ease"><span data-soci style="display:flex;transition:transform .25s cubic-bezier(.22,1,.36,1)"><svg width="18" height="14" viewBox="0 0 48 36" aria-hidden="true"><path fill="#4285F4" d="M3.3 36h7.6V17.5L0 9.4v23.3C0 34.5 1.5 36 3.3 36z"></path><path fill="#34A853" d="M37.1 36h7.6c1.8 0 3.3-1.5 3.3-3.3V9.4l-10.9 8.1z"></path><path fill="#FBBC04" d="M37.1 3.3v14.2L48 9.4V5c0-4.1-4.7-6.4-7.9-4z"></path><path fill="#EA4335" d="M10.9 17.5V3.3L24 13.1l13.1-9.8v14.2L24 27.3z"></path><path fill="#C5221F" d="M0 5v4.4l10.9 8.1V3.3L7.9 1C4.7-1.4 0 .9 0 5z"></path></svg></span><span data-socl aria-hidden="true" style="position:absolute;top:calc(100% + 8px);left:50%;transform:translate(-50%,-3px);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:9px;letter-spacing:.16em;color:var(--accent);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .25s cubic-bezier(.22,1,.36,1)">Email</span></a>
+        <a href="tel:+917987970629" target="_blank" rel="noopener noreferrer" aria-label="Call" data-soc style="position:relative;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid rgba(23,22,20,.12);border-radius:12px;background:#FBF9F6;transition:transform .25s cubic-bezier(.22,1,.36,1),border-color .25s ease"><span data-soci style="display:flex;transition:transform .25s cubic-bezier(.22,1,.36,1)"><i class="fa-solid fa-phone" style="font-size:16px;color:#1FA855"></i></span><span data-socl aria-hidden="true" style="position:absolute;top:calc(100% + 8px);left:50%;transform:translate(-50%,-3px);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:9px;letter-spacing:.16em;color:var(--accent);white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .25s cubic-bezier(.22,1,.36,1)">Call</span></a>
+      </div>
+      <span aria-hidden="true" style="flex:1 1 60px;min-width:16px;height:1px;background:rgba(23,22,20,.14)"></span>
+    </div>
+
+  </div>
+  <a href="#tools" data-scue aria-label="Scroll down" style="position:absolute;left:50%;bottom:clamp(14px,3vh,28px);transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px;min-width:44px;padding:6px 8px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(23,22,20,.5);transition:color .25s ease" style-hover="color:var(--accent)"><span>Scroll</span><span aria-hidden="true" style="position:relative;display:block;width:1px;height:34px;overflow:hidden;background:rgba(23,22,20,.14)"><span style="position:absolute;left:0;top:0;width:1px;height:14px;background:var(--accent);animation:hp-scue 1.8s cubic-bezier(.65,0,.35,1) infinite"></span></span></a>
+</header>
+
+<section id="tools" aria-labelledby="tools-h" style="padding:clamp(56px,7vw,96px) clamp(20px,4vw,56px) clamp(40px,5vw,72px);border-top:1px solid rgba(23,22,20,.1)">
+  <div style="max-width:1320px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(20px,2.4vw,32px)">
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 32px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:var(--accent)">Tool stack</span>
+        <h2 id="tools-h" style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(30px,3.6vw,48px);line-height:1;letter-spacing:-.015em">Where ideas get <em style="font-style:italic;color:var(--accent)">organised.</em></h2>
+      </div>
+      <p style="margin:0;max-width:38ch;font-size:14px;line-height:1.5;color:rgba(23,22,20,.6)">The tools I use to explore, design, prototype and ship.</p>
+    </div>
+    <div data-ts-stage style="position:relative;display:flex;flex-direction:column;justify-content:center;height:clamp(220px,20vw,260px)">
+      <ul data-ts-row role="list" style="margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(8px,1.2vw,14px)">
+        <li data-tcard data-sx="-0.3" data-sy="-0.3" data-sr="-6" data-ss="1.04" style="min-width:0;will-change:transform" aria-label="Figma"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/figma.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">Figma</span></div></li>
+        <li data-tcard data-sx="0.02" data-sy="-0.4" data-sr="4" data-ss="0.96" style="min-width:0;will-change:transform" aria-label="Claude"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/claude.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">Claude</span></div></li>
+        <li data-tcard data-sx="0.28" data-sy="-0.2" data-sr="-3" data-ss="1.02" style="min-width:0;will-change:transform" aria-label="ChatGPT"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/chatgpt.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">ChatGPT</span></div></li>
+        <li data-tcard data-sx="-0.1" data-sy="0.05" data-sr="2" data-ss="0.97" style="min-width:0;will-change:transform" aria-label="Canva"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/canva.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">Canva</span></div></li>
+        <li data-tcard data-sx="0.36" data-sy="0.18" data-sr="-4" data-ss="1.03" style="min-width:0;will-change:transform" aria-label="VS Code"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/vscode.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">VS Code</span></div></li>
+        <li data-tcard data-sx="-0.34" data-sy="0.26" data-sr="3" data-ss="0.98" style="min-width:0;will-change:transform" aria-label="Notion"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/notion.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">Notion</span></div></li>
+        <li data-tcard data-sx="0.1" data-sy="0.34" data-sr="-2" data-ss="1.01" style="min-width:0;will-change:transform" aria-label="Framer"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/framer.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">Framer</span></div></li>
+        <li data-tcard data-sx="-0.18" data-sy="-0.08" data-sr="5" data-ss="0.99" style="min-width:0;will-change:transform" aria-label="Stitch"><div data-tin style="display:flex;align-items:center;gap:12px;height:56px;padding:0 14px;border:1px solid rgba(23,22,20,.14);border-radius:10px;background:#FBF9F6;transition:transform .18s ease-out,border-color .18s ease-out,background .18s ease-out"><span data-tico aria-hidden="true" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:transparent;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.02em;color:var(--ink);transition:transform .18s ease-out"><img src="assets/tools/google.svg" alt="" style="display:block;max-width:22px;max-height:22px;width:auto;height:auto"></span><span data-tname aria-hidden="true" style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:500;color:var(--ink)">Stitch</span></div></li>
+      </ul>
+      <div data-ts-line aria-hidden="true" style="position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:center;gap:12px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10.5px;letter-spacing:.2em;color:rgba(23,22,20,.5);opacity:0;transform:translateY(6px);transition:opacity .4s ease-out,transform .4s ease-out"><span>Explore</span><span data-ts-arr style="color:var(--accent);transition:transform .4s ease-out">&#8594;</span><span>Organize</span><span data-ts-arr style="color:var(--accent);transition:transform .4s ease-out .08s">&#8594;</span><span>Build</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work" style="padding:clamp(56px,8vw,120px) clamp(16px,4vw,56px);border-top:1px solid rgba(23,22,20,.1)">
+  <div style="max-width:1320px;margin:0 auto">
+    <div style="display:flex;flex-direction:column;gap:14px;margin-bottom:clamp(32px,5vw,64px)">
+      <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:var(--accent)">Selected work</span>
+      <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,6vw,80px);line-height:.95;letter-spacing:-.02em">Projects I’ve worked on</h2>
+      <p style="margin:0;max-width:60ch;font-size:clamp(15px,1.3vw,17px);line-height:1.55;color:rgba(23,22,20,.62)">A selection of products and digital experiences across healthcare, manufacturing, legal tech, mobility, and consumer services.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:clamp(20px,2.6vw,36px)">
+      <article data-wc="light" tabindex="0" aria-label="HealthOrio — case study coming soon" style="display:grid;grid-template-columns:minmax(0,11fr) minmax(0,9fr);gap:clamp(24px,4vw,64px);align-items:stretch;padding:clamp(20px,3vw,40px);border:1px solid rgba(120,96,72,.2);border-radius:10px;background:var(--paper);color:var(--ink);cursor:default;outline:none;overflow:hidden">
+        <div data-wtext style="order:1;display:flex;flex-direction:column;gap:clamp(14px,1.5vw,20px);min-width:0">
+          <div style="display:flex;align-items:center;gap:14px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:rgba(23,22,20,.55)">
+            <span style="color:var(--accent)">01</span>
+            <span style="flex:1;display:flex;align-items:center;height:1px;min-width:24px"><span data-wl style="display:block;height:1px;width:62%;background:rgba(23,22,20,.22)"></span></span>
+            <span style="white-space:nowrap">Healthcare &#215; AI</span>
+          </div>
+          <h3 style="margin:clamp(6px,1vw,14px) 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(34px,4.4vw,60px);line-height:.98;letter-spacing:-.02em"><span data-wt style="display:inline-flex;align-items:baseline;gap:.22em">HealthOrio<span data-wa aria-hidden="true" style="font-size:.62em;color:var(--accent)">&#8599;</span></span></h3>
+          <p style="margin:0;max-width:48ch;font-size:clamp(14.5px,1.15vw,16px);line-height:1.6;color:rgba(23,22,20,.68);text-wrap:pretty">AI-powered health platform that brings medical reports, AI-powered insights, and medical history into one place. The product covers report uploads, AI summaries, family management, appointments, and more.</p>
+          <div data-wg style="display:flex;flex-wrap:wrap;gap:8px"><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">Product Design</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">UX Strategy</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">AI</span></div>
+          <div style="display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:var(--accent)">Coming soon <span data-wca aria-hidden="true" style="display:inline-block;font-size:13px;line-height:1">&#8594;</span></div>
+        </div>
+        <figure data-wimg style="order:2;margin:0;display:flex;flex-direction:column;justify-content:center;gap:10px;min-width:0">
+          <div style="overflow:hidden;border-radius:6px;border:1px solid rgba(23,22,20,.1);background:rgba(23,22,20,.04)">
+            <div data-wp style="will-change:transform"><div data-wi style="transform-origin:50% 60%"><img src="assets/work/healthorio.png" alt="HealthOrio health timeline, report insights and mobile screens on laptop, phone and tablet" style="display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 50%"></div></div>
+          </div>
+          <figcaption data-wcap style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:rgba(23,22,20,.5)">Product shot &#8212; health platform</figcaption>
+        </figure>
+      </article>
+      <article data-wc="dark" tabindex="0" aria-label="Regency Ceramics — case study coming soon" style="display:grid;grid-template-columns:minmax(0,9fr) minmax(0,11fr);gap:clamp(24px,4vw,64px);align-items:stretch;padding:clamp(20px,3vw,40px);border:1px solid rgba(251,249,246,.08);border-radius:10px;background:var(--ink);color:var(--paper);cursor:default;outline:none;overflow:hidden">
+        <div data-wtext style="order:2;display:flex;flex-direction:column;gap:clamp(14px,1.5vw,20px);min-width:0">
+          <div style="display:flex;align-items:center;gap:14px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:rgba(251,249,246,.55)">
+            <span style="color:var(--accent)">02</span>
+            <span style="flex:1;display:flex;align-items:center;height:1px;min-width:24px"><span data-wl style="display:block;height:1px;width:62%;background:rgba(251,249,246,.22)"></span></span>
+            <span style="white-space:nowrap">B2B &#215; Manufacturing</span>
+          </div>
+          <h3 style="margin:clamp(6px,1vw,14px) 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(34px,4.4vw,60px);line-height:.98;letter-spacing:-.02em"><span data-wt style="display:inline-flex;align-items:baseline;gap:.22em">Regency Ceramics<span data-wa aria-hidden="true" style="font-size:.62em;color:var(--accent)">&#8599;</span></span></h3>
+          <p style="margin:0;max-width:48ch;font-size:clamp(14.5px,1.15vw,16px);line-height:1.6;color:rgba(251,249,246,.74);text-wrap:pretty">A new digital experience for a traditional tile manufacturer, focused on product discovery and showcasing collections. The work included the brand website and a CMS for managing tiles, collections, spaces, projects, and catalogues.</p>
+          <div data-wg style="display:flex;flex-wrap:wrap;gap:8px"><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(251,249,246,.22);border-radius:100px;color:rgba(251,249,246,.82)">Product Design</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(251,249,246,.22);border-radius:100px;color:rgba(251,249,246,.82)">Web Design</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(251,249,246,.22);border-radius:100px;color:rgba(251,249,246,.82)">CMS</span></div>
+          <div style="display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:var(--accent)">Coming soon <span data-wca aria-hidden="true" style="display:inline-block;font-size:13px;line-height:1">&#8594;</span></div>
+        </div>
+        <figure data-wimg style="order:1;margin:0;display:flex;flex-direction:column;justify-content:center;gap:10px;min-width:0">
+          <div style="overflow:hidden;border-radius:6px;border:1px solid rgba(251,249,246,.1);background:rgba(251,249,246,.04)">
+            <div data-wp style="will-change:transform"><div data-wi style="transform-origin:50% 60%"><img src="assets/work/regency.png" alt="Regency Ceramics website and CMS screens — collections, homepage and tiles catalogue" style="display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 50%"></div></div>
+          </div>
+          <figcaption data-wcap style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:rgba(251,249,246,.5)">Product shot &#8212; website</figcaption>
+        </figure>
+      </article>
+      <article data-wc="light" tabindex="0" aria-label="Webnyay — case study coming soon" style="display:grid;grid-template-columns:minmax(0,11fr) minmax(0,9fr);gap:clamp(24px,4vw,64px);align-items:stretch;padding:clamp(20px,3vw,40px);border:1px solid rgba(120,96,72,.2);border-radius:10px;background:var(--paper);color:var(--ink);cursor:default;outline:none;overflow:hidden">
+        <div data-wtext style="order:1;display:flex;flex-direction:column;gap:clamp(14px,1.5vw,20px);min-width:0">
+          <div style="display:flex;align-items:center;gap:14px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:rgba(23,22,20,.55)">
+            <span style="color:var(--accent)">03</span>
+            <span style="flex:1;display:flex;align-items:center;height:1px;min-width:24px"><span data-wl style="display:block;height:1px;width:62%;background:rgba(23,22,20,.22)"></span></span>
+            <span style="white-space:nowrap">Legal Tech &#215; Productivity</span>
+          </div>
+          <h3 style="margin:clamp(6px,1vw,14px) 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(34px,4.4vw,60px);line-height:.98;letter-spacing:-.02em"><span data-wt style="display:inline-flex;align-items:baseline;gap:.22em">Webnyay<span data-wa aria-hidden="true" style="font-size:.62em;color:var(--accent)">&#8599;</span></span></h3>
+          <p style="margin:0;max-width:48ch;font-size:clamp(14.5px,1.15vw,16px);line-height:1.6;color:rgba(23,22,20,.68);text-wrap:pretty">A bulk case management platform built for legal teams handling large volumes of cases. It makes it easier to search, organize, review, and act on multiple cases instead of handling them individually.</p>
+          <div data-wg style="display:flex;flex-wrap:wrap;gap:8px"><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">Product Design</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">UX Research</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">B2B</span></div>
+          <div style="display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:var(--accent)">Coming soon <span data-wca aria-hidden="true" style="display:inline-block;font-size:13px;line-height:1">&#8594;</span></div>
+        </div>
+        <figure data-wimg style="order:2;margin:0;display:flex;flex-direction:column;justify-content:center;gap:10px;min-width:0">
+          <div style="overflow:hidden;border-radius:6px;border:1px solid rgba(23,22,20,.1);background:rgba(23,22,20,.04)">
+            <div data-wp style="will-change:transform"><div data-wi style="transform-origin:50% 60%"><img src="assets/work/webnyay.png" alt="Webnyay dashboard and case management screens on laptop and tablet" style="display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 50%"></div></div>
+          </div>
+          <figcaption data-wcap style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:rgba(23,22,20,.5)">Product shot &#8212; case management</figcaption>
+        </figure>
+      </article>
+      <article data-wc="dark" tabindex="0" aria-label="Garudam — case study coming soon" style="display:grid;grid-template-columns:minmax(0,9fr) minmax(0,11fr);gap:clamp(24px,4vw,64px);align-items:stretch;padding:clamp(20px,3vw,40px);border:1px solid rgba(251,249,246,.08);border-radius:10px;background:var(--ink);color:var(--paper);cursor:default;outline:none;overflow:hidden">
+        <div data-wtext style="order:2;display:flex;flex-direction:column;gap:clamp(14px,1.5vw,20px);min-width:0">
+          <div style="display:flex;align-items:center;gap:14px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:rgba(251,249,246,.55)">
+            <span style="color:var(--accent)">04</span>
+            <span style="flex:1;display:flex;align-items:center;height:1px;min-width:24px"><span data-wl style="display:block;height:1px;width:62%;background:rgba(251,249,246,.22)"></span></span>
+            <span style="white-space:nowrap">IoT &#215; Fleet Management</span>
+          </div>
+          <h3 style="margin:clamp(6px,1vw,14px) 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(34px,4.4vw,60px);line-height:.98;letter-spacing:-.02em"><span data-wt style="display:inline-flex;align-items:baseline;gap:.22em">Garudam<span data-wa aria-hidden="true" style="font-size:.62em;color:var(--accent)">&#8599;</span></span></h3>
+          <p style="margin:0;max-width:48ch;font-size:clamp(14.5px,1.15vw,16px);line-height:1.6;color:rgba(251,249,246,.74);text-wrap:pretty">A vehicle tracking platform built for fleet operators to monitor and manage vehicles in real time. The experience brings live locations, routes, vehicle status, and fleet activity into one operational workflow.</p>
+          <div data-wg style="display:flex;flex-wrap:wrap;gap:8px"><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(251,249,246,.22);border-radius:100px;color:rgba(251,249,246,.82)">Product Design</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(251,249,246,.22);border-radius:100px;color:rgba(251,249,246,.82)">Mobile App</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(251,249,246,.22);border-radius:100px;color:rgba(251,249,246,.82)">IoT</span></div>
+          <div style="display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:var(--accent)">Coming soon <span data-wca aria-hidden="true" style="display:inline-block;font-size:13px;line-height:1">&#8594;</span></div>
+        </div>
+        <figure data-wimg style="order:1;margin:0;display:flex;flex-direction:column;justify-content:center;gap:10px;min-width:0">
+          <div style="overflow:hidden;border-radius:6px;border:1px solid rgba(251,249,246,.1);background:rgba(251,249,246,.04)">
+            <div data-wp style="will-change:transform"><div data-wi style="transform-origin:50% 60%"><img src="assets/work/garudam.png" alt="Garudam vehicle tracking app — live map, menu and vehicle stats screens" style="display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 50%"></div></div>
+          </div>
+          <figcaption data-wcap style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:rgba(251,249,246,.5)">Product shot &#8212; live tracking</figcaption>
+        </figure>
+      </article>
+      <article data-wc="light" tabindex="0" aria-label="Canyfix — case study coming soon" style="display:grid;grid-template-columns:minmax(0,11fr) minmax(0,9fr);gap:clamp(24px,4vw,64px);align-items:stretch;padding:clamp(20px,3vw,40px);border:1px solid rgba(120,96,72,.2);border-radius:10px;background:var(--paper);color:var(--ink);cursor:default;outline:none;overflow:hidden">
+        <div data-wtext style="order:1;display:flex;flex-direction:column;gap:clamp(14px,1.5vw,20px);min-width:0">
+          <div style="display:flex;align-items:center;gap:14px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:rgba(23,22,20,.55)">
+            <span style="color:var(--accent)">05</span>
+            <span style="flex:1;display:flex;align-items:center;height:1px;min-width:24px"><span data-wl style="display:block;height:1px;width:62%;background:rgba(23,22,20,.22)"></span></span>
+            <span style="white-space:nowrap">Mobile Repair &#215; Marketplace</span>
+          </div>
+          <h3 style="margin:clamp(6px,1vw,14px) 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(34px,4.4vw,60px);line-height:.98;letter-spacing:-.02em"><span data-wt style="display:inline-flex;align-items:baseline;gap:.22em">Canyfix<span data-wa aria-hidden="true" style="font-size:.62em;color:var(--accent)">&#8599;</span></span></h3>
+          <p style="margin:0;max-width:48ch;font-size:clamp(14.5px,1.15vw,16px);line-height:1.6;color:rgba(23,22,20,.68);text-wrap:pretty">A mobile and device repair platform connecting customers with repair partners and vendors. The product includes dedicated experiences for requesting repairs, managing jobs, and handling the service workflow.</p>
+          <div data-wg style="display:flex;flex-wrap:wrap;gap:8px"><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">Product Design</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">UX/UI</span><span data-tag style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;white-space:nowrap;padding:7px 12px;border:1px solid rgba(23,22,20,.18);border-radius:100px;color:rgba(23,22,20,.66)">Design System</span></div>
+          <div style="display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:6px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:var(--accent)">Coming soon <span data-wca aria-hidden="true" style="display:inline-block;font-size:13px;line-height:1">&#8594;</span></div>
+        </div>
+        <figure data-wimg style="order:2;margin:0;display:flex;flex-direction:column;justify-content:center;gap:10px;min-width:0">
+          <div style="overflow:hidden;border-radius:6px;border:1px solid rgba(23,22,20,.1);background:rgba(23,22,20,.04)">
+            <div data-wp style="will-change:transform"><div data-wi style="transform-origin:50% 60%"><img src="assets/work/canyfix.png" alt="Canyfix phone repair website and mobile app screens — booking, repair brands and appointments" style="display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:50% 50%"></div></div>
+          </div>
+          <figcaption data-wcap style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:rgba(23,22,20,.5)">Product shot &#8212; mobile repair platform</figcaption>
+        </figure>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="side" aria-labelledby="side-h" style="padding:clamp(64px,8vw,112px) clamp(20px,4vw,56px);border-top:1px solid rgba(23,22,20,.1)">
+  <div style="max-width:1320px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(32px,4vw,52px)">
+    <div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(12px,1.6vw,24px);row-gap:20px;align-items:end" data-shdr>
+      <div style="grid-column:1/7;display:flex;flex-direction:column;gap:16px" data-shl>
+        <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.5)"><span style="color:var(--accent)">03</span> &#8212; Side projects</span>
+        <h2 id="side-h" style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(44px,6vw,84px);line-height:.94;letter-spacing:-.02em">Other things<br> I <em style="font-style:italic;color:var(--accent)">build.</em></h2>
+      </div>
+      <div style="grid-column:8/13;position:relative;display:flex;flex-direction:column;gap:14px" data-shr>
+        <p style="margin:0;max-width:42ch;font-size:clamp(15px,1.25vw,17px);line-height:1.55;color:rgba(23,22,20,.66);text-wrap:pretty">Design isn’t the only thing I make. I also create content, explore ideas, and work on small projects that keep me curious.</p>
+        <span aria-hidden="true" style="font-family:'Caveat',cursive;font-size:19px;line-height:1.05;color:rgba(23,22,20,.55);transform:rotate(-3deg);align-self:flex-start">different side of me &#8594;</span>
+      </div>
+    </div>
+    <div data-sgrid style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2vw,24px)">
+      <article data-scard style="position:relative;display:flex;flex-direction:column;gap:clamp(20px,2.4vw,28px);min-width:0;padding:clamp(20px,2.4vw,32px);border:1px solid rgba(23,22,20,.1);border-radius:20px;background:#FBF9F6;transition:transform .45s cubic-bezier(.22,1,.36,1),border-color .45s cubic-bezier(.22,1,.36,1)">
+        <div data-shead style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:16px 20px">
+          <div style="display:flex;align-items:flex-start;gap:14px;min-width:0;flex:1 1 260px">
+            <div style="position:relative;flex:0 0 auto;width:52px;height:52px;border-radius:50%;overflow:hidden;border:1px solid rgba(23,22,20,.12);background:rgba(217,83,43,.1)"><span aria-hidden="true" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Instrument Serif',serif;font-style:italic;font-size:20px;color:var(--accent)">aw</span><img src="assets/side/aw-avatar.png" alt="aawareee crew on a rock with AAVARE painted on it" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:45% 50%"></div>
+            <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+              <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px"><span style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(26px,2.4vw,34px);line-height:1;letter-spacing:-.01em">aawareee.</span><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.1em;color:rgba(23,22,20,.5);text-transform:none">@aawareeee</span></div>
+              <p style="margin:0;max-width:44ch;font-size:14px;line-height:1.5;color:rgba(23,22,20,.66);text-wrap:pretty">Daily life, office moments, observations and random things worth sharing.</p>
+              <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:9.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">Content · Instagram · Life</span>
+            </div>
+          </div>
+          <a href="https://www.instagram.com/aawareeee/" target="_blank" rel="noopener noreferrer" data-sbtn style="display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border:1px solid rgba(23,22,20,.22);border-radius:100px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10.5px;letter-spacing:.14em;color:var(--ink);white-space:nowrap;transition:border-color .4s cubic-bezier(.22,1,.36,1)">View on Instagram <span data-sarr aria-hidden="true" style="display:inline-block;transition:transform .4s cubic-bezier(.22,1,.36,1)">&#8594;</span><svg data-ext width="11" height="11" viewBox="0 0 12 12" aria-hidden="true" style="transition:transform .4s cubic-bezier(.22,1,.36,1)"><path d="M4 2h6v6M10 2 3 9" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path></svg></a>
+        </div>
+        <div style="position:relative;margin-top:auto;padding-bottom:36px">
+          <div data-srow style="display:flex;align-items:flex-end;padding:8px 4px 0;overflow-x:auto;scrollbar-width:none">
+            <div data-spost style="flex:0 0 auto;width:clamp(84px,7.4vw,112px);margin-left:0;transform:rotate(-4deg);z-index:1;transition:transform .45s cubic-bezier(.22,1,.36,1)"><div style="overflow:hidden;border-radius:12px;border:4px solid #FBF9F6;box-shadow:0 10px 24px -16px rgba(23,22,20,.45);background:#EDE8E0"><div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/aw-1.png" alt="Reel: office, one hour after arriving" loading="lazy" style="display:block;width:100%;aspect-ratio:9/14;object-fit:cover"></div></div></div><div data-spost style="flex:0 0 auto;width:clamp(84px,7.4vw,112px);margin-left:-14px;transform:rotate(2deg);z-index:2;transition:transform .45s cubic-bezier(.22,1,.36,1)"><div style="overflow:hidden;border-radius:12px;border:4px solid #FBF9F6;box-shadow:0 10px 24px -16px rgba(23,22,20,.45);background:#EDE8E0"><div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/aw-2.png" alt="Reel: late for Mirzapur on the bike" loading="lazy" style="display:block;width:100%;aspect-ratio:9/14;object-fit:cover"></div></div></div><div data-spost style="flex:0 0 auto;width:clamp(84px,7.4vw,112px);margin-left:-14px;transform:rotate(-2deg);z-index:3;transition:transform .45s cubic-bezier(.22,1,.36,1)"><div style="overflow:hidden;border-radius:12px;border:4px solid #FBF9F6;box-shadow:0 10px 24px -16px rgba(23,22,20,.45);background:#EDE8E0"><div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/aw-3.png" alt="Reel: cat — do something cutee" loading="lazy" style="display:block;width:100%;aspect-ratio:9/14;object-fit:cover"></div></div></div><div data-spost style="flex:0 0 auto;width:clamp(84px,7.4vw,112px);margin-left:-14px;transform:rotate(3deg);z-index:4;transition:transform .45s cubic-bezier(.22,1,.36,1)"><div style="overflow:hidden;border-radius:12px;border:4px solid #FBF9F6;box-shadow:0 10px 24px -16px rgba(23,22,20,.45);background:#EDE8E0"><div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/aw-4.png" alt="Reel: 3 horrible facts about Friday" loading="lazy" style="display:block;width:100%;aspect-ratio:9/14;object-fit:cover"></div></div></div><div data-spost style="flex:0 0 auto;width:clamp(84px,7.4vw,112px);margin-left:-14px;transform:rotate(-1deg);z-index:5;transition:transform .45s cubic-bezier(.22,1,.36,1)"><div style="overflow:hidden;border-radius:12px;border:4px solid #FBF9F6;box-shadow:0 10px 24px -16px rgba(23,22,20,.45);background:#EDE8E0"><div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/aw-5.png" alt="Reel: Ganpati" loading="lazy" style="display:block;width:100%;aspect-ratio:9/14;object-fit:cover"></div></div></div></div>
+          <span aria-hidden="true" data-snote style="position:absolute;right:4px;bottom:0;display:flex;align-items:flex-end;gap:4px;font-family:'Caveat',cursive;font-size:clamp(16px,1.4vw,19px);line-height:1.05;color:rgba(23,22,20,.58);transform:rotate(-3deg);pointer-events:none"><span>office, life<br>and everything in between</span><span style="font-family:inherit">&#8599;</span></span>
+        </div></article>
+      <article data-scard style="position:relative;display:flex;flex-direction:column;gap:clamp(20px,2.4vw,28px);min-width:0;padding:clamp(20px,2.4vw,32px);border:1px solid rgba(23,22,20,.1);border-radius:20px;background:#FBF9F6;transition:transform .45s cubic-bezier(.22,1,.36,1),border-color .45s cubic-bezier(.22,1,.36,1)">
+        <div data-shead style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:16px 20px">
+          <div style="display:flex;align-items:flex-start;gap:14px;min-width:0;flex:1 1 260px">
+            <div style="position:relative;flex:0 0 auto;width:52px;height:52px;border-radius:50%;overflow:hidden;border:1px solid rgba(23,22,20,.12);background:rgba(217,83,43,.1)"><span aria-hidden="true" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Instrument Serif',serif;font-style:italic;font-size:20px;color:var(--accent)">LB</span><img src="assets/side/lb-avatar.png" alt="Little Blossoms logo — tulip" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(1.18)"></div>
+            <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+              <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px"><span style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(26px,2.4vw,34px);line-height:1;letter-spacing:-.01em">Little Blossoms</span><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.1em;color:rgba(23,22,20,.5);text-transform:none">@__little_blossoms__</span></div>
+              <p style="margin:0;max-width:44ch;font-size:14px;line-height:1.5;color:rgba(23,22,20,.66);text-wrap:pretty">An education page built around my mom’s tuition classes, with engaging content to make learning more fun for kids.</p>
+              <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:9.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">Content · Education · Kids</span>
+            </div>
+          </div>
+          <a href="https://www.instagram.com/__little_blossoms__/" target="_blank" rel="noopener noreferrer" data-sbtn style="display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border:1px solid rgba(23,22,20,.22);border-radius:100px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10.5px;letter-spacing:.14em;color:var(--ink);white-space:nowrap;transition:border-color .4s cubic-bezier(.22,1,.36,1)">View on Instagram <span data-sarr aria-hidden="true" style="display:inline-block;transition:transform .4s cubic-bezier(.22,1,.36,1)">&#8594;</span><svg data-ext width="11" height="11" viewBox="0 0 12 12" aria-hidden="true" style="transition:transform .4s cubic-bezier(.22,1,.36,1)"><path d="M4 2h6v6M10 2 3 9" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path></svg></a>
+        </div>
+        <div style="position:relative;margin-top:auto;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:16px;align-items:end;padding-bottom:36px" data-slb>
+          <div data-srow style="display:flex;align-items:flex-end;padding:8px 4px 0">
+            <div data-spost style="flex:0 0 auto;width:clamp(96px,9vw,128px);margin-left:0;transform:rotate(-3deg);z-index:1;transition:transform .45s cubic-bezier(.22,1,.36,1)"><div style="overflow:hidden;border-radius:12px;border:4px solid #FBF9F6;box-shadow:0 10px 24px -16px rgba(23,22,20,.45);background:#EDE8E0"><div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/lb-rakshabandhan.png" alt="Raksha Bandhan poem post with illustrated brother and sister" loading="lazy" style="display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 0"></div></div></div><div data-spost style="flex:0 0 auto;width:clamp(96px,9vw,128px);margin-left:-18px;transform:rotate(3deg);z-index:2;transition:transform .45s cubic-bezier(.22,1,.36,1)"><div style="overflow:hidden;border-radius:12px;border:4px solid #FBF9F6;box-shadow:0 10px 24px -16px rgba(23,22,20,.45);background:#EDE8E0"><div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/lb-mera-bharat.png" alt="Mera Bharat poem post with flag and river illustration" loading="lazy" style="display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 0"></div></div></div>
+          </div>
+          <a href="https://harshtuitionclasses.lovable.app/" target="_blank" rel="noopener noreferrer" data-sweb aria-label="Harsh Tuition Classes website" style="display:block;min-width:0;border:1px solid rgba(23,22,20,.14);border-radius:10px;overflow:hidden;background:#fff;box-shadow:0 14px 28px -20px rgba(23,22,20,.45);transform:rotate(1.5deg);transition:transform .45s cubic-bezier(.22,1,.36,1)">
+            
+            <div data-simgw style="transition:transform .45s cubic-bezier(.22,1,.36,1)"><img src="assets/side/tuition-website.png" alt="Harsh Tuition Classes website homepage" loading="lazy" style="display:block;width:100%;height:auto"></div>
+          </a>
+          <span aria-hidden="true" data-snote style="position:absolute;left:4px;bottom:0;display:flex;align-items:flex-end;gap:4px;font-family:'Caveat',cursive;font-size:clamp(16px,1.4vw,19px);line-height:1.05;color:rgba(23,22,20,.58);transform:rotate(-3deg);pointer-events:none"><span style="font-family:inherit">&#8598;</span><span>my mom’s tuition classes<br>for young learners</span></span>
+        </div>
+        <div style="display:flex;justify-content:flex-end"><a href="https://harshtuitionclasses.lovable.app/" target="_blank" rel="noopener noreferrer" data-sbtn style="display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border:1px solid rgba(23,22,20,.22);border-radius:100px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10.5px;letter-spacing:.14em;color:var(--ink);white-space:nowrap;transition:border-color .4s cubic-bezier(.22,1,.36,1)">Visit tuition website <span data-sarr aria-hidden="true" style="display:inline-block;transition:transform .4s cubic-bezier(.22,1,.36,1)">&#8594;</span><svg data-ext width="11" height="11" viewBox="0 0 12 12" aria-hidden="true" style="transition:transform .4s cubic-bezier(.22,1,.36,1)"><path d="M4 2h6v6M10 2 3 9" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path></svg></a></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="about" style="padding:clamp(56px,8vw,120px) clamp(20px,4vw,56px) clamp(56px,8vw,112px);border-top:1px solid rgba(23,22,20,.12);background:#F5F2EC">
+  <div style="max-width:1320px;margin:0 auto">
+    <div data-ab="0" style="display:flex;align-items:center;gap:18px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.52)"><span style="white-space:nowrap">About</span><span style="flex:1;height:1px;background:rgba(23,22,20,.12)"></span></div>
+    <div data-ab-hero style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(12px,1.6vw,24px);row-gap:40px;align-items:center;padding:clamp(48px,7vw,96px) 0 clamp(64px,8vw,112px)">
+      <div data-ab-left style="grid-column:1/7;display:flex;flex-direction:column;gap:clamp(24px,3vw,36px);min-width:0">
+        <h2 data-ab="1" style="margin:0;max-width:620px;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(36px,5.4vw,76px);line-height:.95;letter-spacing:-.022em;color:var(--ink)">I like messy problems,<br data-br> curious questions, and<br data-br> AI that needs the<br data-br> occasional <em data-ab="2" style="display:inline-block;font-style:italic;color:var(--accent)">reality check.</em></h2>
+        <p data-ab="3" style="margin:0;max-width:520px;font-size:clamp(16px,1.45vw,19px);line-height:1.5;color:rgba(23,22,20,.7);text-wrap:pretty">I’m Harsh, a Product Designer turning complex problems into simple, usable products.</p>
+      </div>
+      <div data-ab-right style="grid-column:8/13;position:relative;display:flex;flex-direction:column;align-items:center;min-width:0;padding-top:clamp(96px,9vw,124px)">
+        <div data-ab="5" data-ab-note style="position:absolute;z-index:2;top:0;right:0;display:flex;align-items:flex-start;gap:6px;font-family:'Caveat',cursive;font-size:clamp(19px,1.7vw,23px);line-height:1.05;color:rgba(23,22,20,.72);transform:rotate(3deg)">
+          <svg width="46" height="52" viewBox="0 0 46 52" aria-hidden="true" style="flex-shrink:0;margin-top:22px"><path d="M40 4 C 30 10, 14 18, 10 42" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path><path d="M4 34 L10 44 L17 36" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          <span>— usually<br> behind a screen,<br> occasionally outside.</span>
+        </div>
+        <figure data-ab="4" data-ab-photo role="button" tabindex="0" aria-pressed="false" aria-label="Portrait of Harsh — show colour version" style="position:relative;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;width:min(100%,520px);padding:clamp(12px,1.3vw,18px) clamp(12px,1.3vw,18px) clamp(40px,4vw,56px);background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.08),0 14px 30px -18px rgba(23,22,20,.3);transform:rotate(-2.5deg)">
+          <div style="position:relative;width:100%;aspect-ratio:880/1089;overflow:hidden;background:#111">
+            <img src="assets/about/portrait-bw.jpg" alt="Portrait of Harsh" draggable="false" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block">
+            <img data-ab-color src="assets/about/portrait-color.jpg" alt="" aria-hidden="true" draggable="false" loading="eager" fetchpriority="high" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block;opacity:0;will-change:opacity;transition:opacity .7s cubic-bezier(.22,1,.36,1)">
+          </div>
+          <span data-ab-cue aria-hidden="true" style="position:absolute;left:clamp(14px,1.6vw,22px);bottom:clamp(8px,1vw,14px);font-family:'Caveat',cursive;font-size:clamp(17px,1.5vw,20px);line-height:1;color:rgba(23,22,20,.6);opacity:0;transform:translateY(4px);transition:opacity .3s ease-out,transform .3s cubic-bezier(.22,1,.36,1);pointer-events:none">there’s colour too.</span>
+          <div data-ab="6" data-ab-sticky style="position:absolute;right:clamp(-16px,-1.2vw,-8px);bottom:clamp(-30px,-2.4vw,-16px);width:clamp(118px,11vw,148px);padding:18px 16px 20px;background:#F6E27A;box-shadow:0 1px 1px rgba(23,22,20,.08),0 10px 18px -12px rgba(23,22,20,.4);transform:rotate(5deg);font-family:'Caveat',cursive;font-size:clamp(22px,1.9vw,27px);line-height:1.02;color:#2A2622">Make it<br> <span style="text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:4px">make sense.</span></div>
+        </figure>
+      </div>
+    </div>
+    <div data-ab-mid style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-top:1px solid rgba(23,22,20,.12);border-bottom:1px solid rgba(23,22,20,.12)">
+      <div data-ab-me data-pvcol="left" style="position:relative;display:flex;flex-direction:column;gap:28px;padding:clamp(40px,5vw,72px) clamp(24px,4vw,64px) clamp(40px,5vw,72px) 0;border-right:1px solid rgba(23,22,20,.12);min-width:0">
+        <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.52)">A bit more about me</span>
+        <div data-reveal style="display:flex;flex-direction:column;gap:20px;max-width:56ch;font-size:clamp(15px,1.2vw,17px);line-height:1.7;color:rgba(23,22,20,.72)">
+          <p style="margin:0;text-wrap:pretty">I’m a Computer Science graduate from <span data-pv="iiit" role="button" tabindex="0" aria-expanded="false" style="position:relative;display:inline;padding:.04em .2em;margin:0 -.05em;border-radius:3px;background:rgba(217,83,43,.08);color:var(--accent);font-weight:600;cursor:pointer;transition:background .25s ease;-webkit-tap-highlight-color:transparent">IIIT Vadodara ICD</span>. Over the past few years, I’ve worked on consumer apps, IoT products, legal tech, healthcare and enterprise tools.</p>
+          <p style="margin:0;text-wrap:pretty">I’m <span data-pv="curious" role="button" tabindex="0" aria-expanded="false" style="position:relative;display:inline;padding:.04em .2em;margin:0 -.05em;border-radius:3px;background:rgba(217,83,43,.08);color:var(--accent);font-weight:600;cursor:pointer;transition:background .25s ease;-webkit-tap-highlight-color:transparent">curious</span> about how people make decisions, how technology can actually help (especially with <span data-pv="ai" role="button" tabindex="0" aria-expanded="false" style="position:relative;display:inline;padding:.04em .2em;margin:0 -.05em;border-radius:3px;background:rgba(217,83,43,.08);color:var(--accent);font-weight:600;cursor:pointer;transition:background .25s ease;-webkit-tap-highlight-color:transparent">AI</span>), and how good design can make complex things feel simple.</p>
+          <p style="margin:0;text-wrap:pretty">When I’m not designing, you’ll probably find me exploring new tools, planning my next trip, or <span data-pv="pizza" role="button" tabindex="0" aria-expanded="false" style="position:relative;display:inline;padding:.04em .2em;margin:0 -.05em;border-radius:3px;background:rgba(217,83,43,.08);color:var(--accent);font-weight:600;cursor:pointer;transition:background .25s ease;-webkit-tap-highlight-color:transparent">obsessing over pizza</span>.</p>
+        </div>
+        
+<div data-pvc="iiit" data-rot="-2" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(-3.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><img src="assets/about/iiitv-campus.png" alt="IIIT Vadodara ICD campus with running track" loading="lazy" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover"></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">where it started.</div>
+        
+      </div>
+<div data-pvc="curious" data-rot="2" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(0.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><div role="img" aria-label="Illustration: notebook page with sketches, notes and experiments" style="position:relative;display:block;width:100%;aspect-ratio:4/3;overflow:hidden;background-color:#FBF9F4;background-image:linear-gradient(rgba(23,22,20,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(23,22,20,.06) 1px,transparent 1px);background-size:14px 14px">
+  <div style="position:absolute;left:9%;top:12%;width:34%;aspect-ratio:9/16;border:1.5px solid rgba(23,22,20,.7);border-radius:8px;transform:rotate(-4deg);background:#FBF9F4;display:flex;flex-direction:column;gap:5%;padding:10% 9%">
+    <span style="height:10%;width:60%;border-radius:3px;background:var(--accent)"></span>
+    <span style="height:3px;width:90%;background:rgba(23,22,20,.35)"></span>
+    <span style="height:3px;width:70%;background:rgba(23,22,20,.35)"></span>
+    <span style="flex:1;border:1.5px dashed rgba(23,22,20,.35);border-radius:4px"></span>
+    <span style="height:12%;border-radius:20px;border:1.5px solid rgba(23,22,20,.7)"></span>
+  </div>
+  <span style="position:absolute;left:46%;top:30%;font-family:'Caveat',cursive;font-size:clamp(20px,2vw,26px);color:var(--accent);transform:rotate(-8deg)">&#8594;</span>
+  <div style="position:absolute;right:9%;top:10%;width:38%;padding:8% 7%;background:#F6E7B4;transform:rotate(3deg);box-shadow:0 8px 14px -10px rgba(23,22,20,.45);font-family:'Caveat',cursive;font-size:clamp(13px,1.3vw,17px);line-height:1.05;color:#4A4128">what if<br>it had<br>no steps?</div>
+  <div style="position:absolute;right:12%;bottom:12%;display:flex;flex-direction:column;gap:3px;font-family:'Caveat',cursive;font-size:clamp(12px,1.15vw,15px);line-height:1;color:rgba(23,22,20,.72);transform:rotate(-2deg)">
+    <span>&#9744; test v2</span><span style="color:var(--accent)">&#9745; ask users</span><span>&#9744; simplify</span>
+  </div>
+  <span style="position:absolute;left:11%;bottom:8%;width:18px;height:18px;border-radius:50%;border:1.5px solid var(--accent)"></span>
+  <span style="position:absolute;left:19%;bottom:10%;width:26px;height:1.5px;background:rgba(23,22,20,.5);transform:rotate(-12deg)"></span>
+</div></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">always exploring new ideas.</div>
+        
+      </div>
+<div data-pvc="ai" data-rot="1" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(-0.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><div style="display:flex;flex-direction:column;gap:8px;padding:12px 10px;background:#F2EEE7"><div data-st="0" style="display:flex;flex-direction:column;align-items:flex-start;gap:3px"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">AI</span><span style="max-width:88%;padding:6px 9px;border-radius:10px 10px 10px 2px;background:rgba(23,22,20,.06);color:var(--ink);font-size:12px;line-height:1.35">Here are 8 possible directions.</span></div><div data-st="1" style="display:flex;flex-direction:column;align-items:flex-end;gap:3px"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">Harsh</span><span style="max-width:88%;padding:6px 9px;border-radius:10px 10px 2px 10px;background:var(--ink);color:#FBF9F6;font-size:12px;line-height:1.35">Too much.</span></div><div data-st="2" style="display:flex;flex-direction:column;align-items:flex-start;gap:3px"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">AI</span><span style="max-width:88%;padding:6px 9px;border-radius:10px 10px 10px 2px;background:rgba(23,22,20,.06);color:var(--ink);font-size:12px;line-height:1.35">Okay. Simpler?</span></div></div></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">useful, but needs supervision.</div>
+        
+      </div>
+<div data-pvc="pizza" data-rot="-3" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(-4.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><img src="assets/about/pizza.png" alt="Collage of pizzas eaten over the years" loading="lazy" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 30%"></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">always a good idea.</div>
+        <span style="position:absolute;right:-6px;top:-26px;font-family:'Caveat',cursive;font-size:16px;color:var(--accent);transform:rotate(6deg);white-space:nowrap">yes, this is important.</span>
+      </div>
+      </div>
+      <div data-ab-care data-pvcol="right" style="position:relative;display:flex;flex-direction:column;gap:28px;padding:clamp(40px,5vw,72px) 0 clamp(40px,5vw,72px) clamp(24px,4vw,64px);min-width:0">
+        <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.52)">Things I care about</span>
+        <ol style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:clamp(22px,2.2vw,30px)">
+          <li data-reveal data-pvrow style="display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:rgba(23,22,20,.45)">01</span><span style="display:flex;flex-direction:column;align-items:flex-start;gap:4px"><span data-pv="p1" role="button" tabindex="0" aria-expanded="false" style="display:inline-flex;align-items:center;min-height:32px;margin:-6px 0;font-size:clamp(16px,1.3vw,18px);font-weight:500;line-height:1.3;color:var(--ink);cursor:pointer;transition:color .25s ease,transform .25s cubic-bezier(.22,1,.36,1);-webkit-tap-highlight-color:transparent">Building useful products</span><span style="font-size:14px;line-height:1.45;color:rgba(23,22,20,.55)">for real people and real contexts</span></span></li>
+          <li data-reveal data-pvrow style="display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:rgba(23,22,20,.45)">02</span><span style="display:flex;flex-direction:column;align-items:flex-start;gap:4px"><span data-pv="p2" role="button" tabindex="0" aria-expanded="false" style="display:inline-flex;align-items:center;min-height:32px;margin:-6px 0;font-size:clamp(16px,1.3vw,18px);font-weight:500;line-height:1.3;color:var(--ink);cursor:pointer;transition:color .25s ease,transform .25s cubic-bezier(.22,1,.36,1);-webkit-tap-highlight-color:transparent">Using AI as a collaborator</span><span style="font-size:14px;line-height:1.45;color:rgba(23,22,20,.55)">not a replacement</span></span></li>
+          <li data-reveal data-pvrow style="display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:rgba(23,22,20,.45)">03</span><span style="display:flex;flex-direction:column;align-items:flex-start;gap:4px"><span data-pv="p3" role="button" tabindex="0" aria-expanded="false" style="display:inline-flex;align-items:center;min-height:32px;margin:-6px 0;font-size:clamp(16px,1.3vw,18px);font-weight:500;line-height:1.3;color:var(--ink);cursor:pointer;transition:color .25s ease,transform .25s cubic-bezier(.22,1,.36,1);-webkit-tap-highlight-color:transparent">Clear communication</span><span style="font-size:14px;line-height:1.45;color:rgba(23,22,20,.55)">less assumptions, more alignment</span></span></li>
+          <li data-reveal data-pvrow style="display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:rgba(23,22,20,.45)">04</span><span style="display:flex;flex-direction:column;align-items:flex-start;gap:4px"><span data-pv="p4" role="button" tabindex="0" aria-expanded="false" style="display:inline-flex;align-items:center;min-height:32px;margin:-6px 0;font-size:clamp(16px,1.3vw,18px);font-weight:500;line-height:1.3;color:var(--ink);cursor:pointer;transition:color .25s ease,transform .25s cubic-bezier(.22,1,.36,1);-webkit-tap-highlight-color:transparent">Good design systems</span><span style="font-size:14px;line-height:1.45;color:rgba(23,22,20,.55)">for consistency and speed</span></span></li>
+          <li data-reveal data-pvrow style="display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;align-items:baseline"><span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:rgba(23,22,20,.45)">05</span><span style="display:flex;flex-direction:column;align-items:flex-start;gap:4px"><span data-pv="p5" role="button" tabindex="0" aria-expanded="false" style="display:inline-flex;align-items:center;min-height:32px;margin:-6px 0;font-size:clamp(16px,1.3vw,18px);font-weight:500;line-height:1.3;color:var(--ink);cursor:pointer;transition:color .25s ease,transform .25s cubic-bezier(.22,1,.36,1);-webkit-tap-highlight-color:transparent">A life outside the screen</span><span style="font-size:14px;line-height:1.45;color:rgba(23,22,20,.55)">good food, good people, new places</span></span></li>
+        </ol>
+<div data-pvc="p1" data-rot="2" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(0.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><image-slot id="pv-build" placeholder="Product sketch / wireframe" style="display:block;width:100%;aspect-ratio:4/3"></image-slot></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">from messy ideas to real products.</div>
+        
+      </div>
+<div data-pvc="p2" data-rot="1" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(-0.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><div style="display:flex;flex-direction:column;gap:8px;padding:12px 10px;background:#F2EEE7"><div data-st="0" style="display:flex;flex-direction:column;align-items:flex-start;gap:3px"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">AI</span><span style="max-width:88%;padding:6px 9px;border-radius:10px 10px 10px 2px;background:rgba(23,22,20,.06);color:var(--ink);font-size:12px;line-height:1.35">Here are 12 options.</span></div><div data-st="1" style="display:flex;flex-direction:column;align-items:flex-end;gap:3px"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">Harsh</span><span style="max-width:88%;padding:6px 9px;border-radius:10px 10px 2px 10px;background:var(--ink);color:#FBF9F6;font-size:12px;line-height:1.35">No.</span></div><div data-st="2" style="display:flex;flex-direction:column;align-items:flex-start;gap:3px"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.16em;color:rgba(23,22,20,.45)">AI</span><span style="max-width:88%;padding:6px 9px;border-radius:10px 10px 10px 2px;background:rgba(23,22,20,.06);color:var(--ink);font-size:12px;line-height:1.35">…okay, 3?</span></div></div></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">good ideas. better arguments.</div>
+        
+      </div>
+<div data-pvc="p3" data-rot="-1" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(-2.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><div style="display:flex;flex-direction:column;gap:10px;padding:14px 10px 12px;background:#F2EEE7">
+  <div data-st="0" style="display:flex;align-items:flex-end;gap:8px"><span data-nudge="3" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:#E6DDD0;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:0;color:var(--ink);transition:transform .35s cubic-bezier(.22,1,.36,1)">A</span><span style="padding:6px 9px;border-radius:10px 10px 10px 2px;background:#FBF9F6;border:1px solid rgba(23,22,20,.12);font-size:12px;line-height:1.35">Can you make it better?</span></div>
+  <div data-st="1" style="display:flex;align-items:flex-end;justify-content:flex-end;gap:8px"><span style="padding:6px 9px;border-radius:10px 10px 2px 10px;background:var(--ink);color:#FBF9F6;font-size:12px;line-height:1.35">What specifically isn’t working?</span><span data-nudge="-3" style="flex-shrink:0;display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:var(--accent);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:0;color:#FBF9F6;transition:transform .35s cubic-bezier(.22,1,.36,1)">B</span></div>
+ </div></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">less confusion. more clarity.</div>
+        
+      </div>
+<div data-pvc="p4" data-rot="1.5" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(0deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><div style="display:flex;flex-direction:column;gap:10px;padding:12px;background:#FBF9F6;border:1px solid rgba(23,22,20,.12)">
+  <div data-st="0" style="display:flex;gap:5px"><span style="flex:1;height:20px;border-radius:3px;background:#171614;border:1px solid rgba(23,22,20,.08)"></span><span style="flex:1;height:20px;border-radius:3px;background:#D9532B;border:1px solid rgba(23,22,20,.08)"></span><span style="flex:1;height:20px;border-radius:3px;background:#F6E27A;border:1px solid rgba(23,22,20,.08)"></span><span style="flex:1;height:20px;border-radius:3px;background:#E9E4DA;border:1px solid rgba(23,22,20,.08)"></span><span style="flex:1;height:20px;border-radius:3px;background:#8D8982;border:1px solid rgba(23,22,20,.08)"></span></div>
+  <div data-st="1" style="display:flex;align-items:baseline;gap:10px;padding-top:8px;border-top:1px solid rgba(23,22,20,.12)"><span style="font-family:'Instrument Serif',serif;font-size:26px;line-height:1">Aa</span><span style="font-size:17px;font-weight:500;line-height:1">Aa</span><span style="font-family:'JetBrains Mono',monospace;font-size:11px;line-height:1">Aa</span><span style="margin-left:auto;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.14em;color:rgba(23,22,20,.45)">Type</span></div>
+  <div data-st="2" style="display:flex;align-items:center;gap:4px;padding-top:8px;border-top:1px solid rgba(23,22,20,.12)"><span style="width:4px;height:6px;background:rgba(217,83,43,.7)"></span><span style="width:8px;height:6px;background:rgba(217,83,43,.7)"></span><span style="width:12px;height:6px;background:rgba(217,83,43,.7)"></span><span style="width:16px;height:6px;background:rgba(217,83,43,.7)"></span><span style="width:24px;height:6px;background:rgba(217,83,43,.7)"></span><span style="width:32px;height:6px;background:rgba(217,83,43,.7)"></span><span style="margin-left:auto;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.14em;color:rgba(23,22,20,.45)">Space</span></div>
+  <div data-st="3" style="display:flex;align-items:center;gap:6px;padding-top:8px;border-top:1px solid rgba(23,22,20,.12)"><span style="padding:5px 10px;border-radius:100px;background:var(--ink);color:#FBF9F6;font-size:10.5px">Button</span><span style="padding:4px 9px;border-radius:100px;border:1px solid rgba(23,22,20,.25);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:8.5px;letter-spacing:.12em">Tag</span><span style="width:26px;height:14px;border-radius:100px;background:var(--accent);position:relative"><span style="position:absolute;right:2px;top:2px;width:10px;height:10px;border-radius:50%;background:#FBF9F6"></span></span></div>
+ </div></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">small details. big impact.</div>
+        
+      </div>
+<div data-pvc="p5" data-rot="-2" aria-hidden="true" style="position:absolute;top:0;left:0;z-index:30;width:212px;padding:7px 7px 9px;border-radius:4px;background:#FBF9F4;box-shadow:0 1px 2px rgba(23,22,20,.1),0 16px 30px -18px rgba(23,22,20,.38);opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px) scale(.97) rotate(-3.5deg);transition:opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s linear .3s">
+        <div style="border-radius:2px;overflow:hidden"><div style="overflow:hidden"><div data-drift style="transition:transform 3.2s cubic-bezier(.22,1,.36,1)"><img src="assets/about/travel.png" alt="Harsh on a hilltop rock above the city" loading="lazy" style="display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 55%"></div></div></div>
+        <div style="padding:8px 4px 0;font-family:'Caveat',cursive;font-size:18px;line-height:1.05;color:#2A2622">new places.<br> new perspectives.</div>
+        
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<sc-if value="{{ showNoticed }}" hint-placeholder-val="{{ true }}">
+<section id="noticed" aria-labelledby="noticed-h" style="padding:clamp(56px,8vw,120px) clamp(20px,4vw,56px);border-top:1px solid rgba(23,22,20,.1)">
+  <div style="max-width:1320px;margin:0 auto">
+    <div style="display:flex;align-items:center;gap:18px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(23,22,20,.52)"><span style="white-space:nowrap">Things I noticed</span><span style="flex:1;height:1px;background:rgba(23,22,20,.12)"></span></div>
+    <div style="position:relative;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(12px,1.6vw,24px);row-gap:24px;padding:clamp(32px,4.5vw,64px) 0 clamp(40px,5vw,72px)">
+      <h2 id="noticed-h" data-reveal style="grid-column:1/9;margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5.8vw,84px);line-height:.95;letter-spacing:-.022em;color:var(--ink);text-wrap:balance" data-nt-h>Four small stories from a slightly curious <em style="font-style:italic;color:var(--accent)">camera roll.</em></h2>
+      <p data-reveal data-nt-p style="grid-column:1/7;margin:0;max-width:52ch;font-size:clamp(15px,1.3vw,18px);line-height:1.55;color:rgba(23,22,20,.68);text-wrap:pretty">I take photos of everyday moments, places and little details that catch my attention. Here are a few stories.</p>
+      <span data-nt-note aria-hidden="true" style="grid-column:10/13;grid-row:1/3;align-self:center;justify-self:start;font-family:'Caveat',cursive;font-size:clamp(18px,1.6vw,22px);line-height:1.1;color:rgba(23,22,20,.6);transform:rotate(-4deg)">read them in order —<br> the captions matter.</span>
+    </div>
+    <div data-nt-grid style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(14px,1.8vw,24px)">
+      <sc-for list="{{ stories }}" as="s" hint-placeholder-count="4">
+        <button type="button" data-ncard onClick="{{ s.open }}" aria-label="Open story {{ s.num }}: {{ s.title }}, {{ s.count }} frames" style="all:unset;box-sizing:border-box;display:flex;flex-direction:column;cursor:pointer;min-width:0;-webkit-tap-highlight-color:transparent">
+          <div style="position:relative;width:100%;aspect-ratio:4/5;overflow:hidden;border-radius:6px;background:#E6E0D6">
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:16px;text-align:center;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:rgba(23,22,20,.4)">{{ s.coverName }}</div>
+            <img data-ncover data-src="{{ s.cover }}" alt="" loading="lazy" decoding="async" data-simg style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:transform .6s cubic-bezier(.22,1,.36,1),opacity .4s ease">
+            <span style="position:absolute;top:12px;left:12px;padding:4px 7px;border-radius:3px;background:rgba(251,249,246,.88);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.12em;color:var(--ink)">{{ s.num }}</span>
+            <span data-ncue style="position:absolute;left:12px;bottom:12px;padding:6px 9px;border-radius:3px;background:var(--ink);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:#FBF9F6;opacity:0;transform:translateY(4px);transition:opacity .25s ease,transform .25s cubic-bezier(.22,1,.36,1)">Open story &#8594;</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:6px;padding:16px 2px 0">
+            <span data-ntitle style="font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(24px,2.1vw,30px);line-height:1.02;letter-spacing:-.01em;color:var(--ink);transition:transform .3s cubic-bezier(.22,1,.36,1)">{{ s.title }}</span>
+            <span style="font-size:14px;line-height:1.45;color:rgba(23,22,20,.6)">{{ s.kicker }}</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding:16px 2px 0">
+            <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:rgba(23,22,20,.5)">{{ s.count }} frames</span>
+            <span data-narr aria-hidden="true" style="display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;border:1px solid rgba(23,22,20,.25);font-size:13px;color:var(--ink);transition:transform .3s cubic-bezier(.22,1,.36,1),border-color .3s ease,color .3s ease">&#8594;</span>
+          </div>
+        </button>
+      </sc-for>
+    </div>
+  </div>
+</section>
+</sc-if>
+
+<sc-if value="{{ viewerOpen }}" hint-placeholder-val="{{ false }}">
+<div data-viewer role="dialog" aria-modal="true" aria-labelledby="sv-title" style="position:fixed;inset:0;z-index:96;overflow-y:auto;overscroll-behavior:contain;background:#141311;color:#EDE8DF">
+  <div style="position:sticky;top:0;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px;padding:0 clamp(16px,4vw,48px);background:rgba(20,19,17,.9);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(237,232,223,.08)">
+    <button type="button" data-sv-back onClick="{{ st.close }}" style="all:unset;box-sizing:border-box;cursor:pointer;-webkit-tap-highlight-color:transparent;display:inline-flex;align-items:center;gap:10px;min-height:44px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.16em;color:rgba(237,232,223,.78)"><span aria-hidden="true">&#8592;</span> All stories</button>
+    <span aria-live="polite" style="font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.12em;color:#EDE8DF"><span style="color:var(--accent)">{{ st.curN }}</span> / {{ st.totalN }}</span>
+  </div>
+  <div style="max-width:1180px;margin:0 auto;padding:clamp(36px,5vw,64px) clamp(16px,4vw,48px) 0">
+    <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:11px;letter-spacing:.18em;color:rgba(237,232,223,.5)">{{ st.num }} &#183; {{ st.title }}</span>
+    <h2 id="sv-title" style="margin:14px 0 0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(38px,5.4vw,76px);line-height:.98;letter-spacing:-.02em">{{ st.title }}</h2>
+    <p style="margin:12px 0 0;font-size:clamp(16px,1.4vw,19px);line-height:1.4;color:rgba(237,232,223,.82)">{{ st.kicker }}</p>
+    <p style="margin:20px 0 0;max-width:62ch;font-size:clamp(15px,1.2vw,17px);line-height:1.6;color:rgba(237,232,223,.62);text-wrap:pretty">{{ st.intro }}</p>
+  </div>
+
+  <div data-vdesk style="max-width:1280px;margin:0 auto;padding:clamp(40px,5vw,64px) clamp(16px,3vw,40px) 0">
+    <div style="display:grid;grid-template-columns:48px minmax(0,1fr) 48px;align-items:center;gap:clamp(12px,2vw,28px)">
+      <button type="button" onClick="{{ st.prev }}" aria-label="Previous frame" disabled="{{ st.noPrev }}" data-sv-arrow style="all:unset;box-sizing:border-box;cursor:pointer;-webkit-tap-highlight-color:transparent;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;border:1px solid rgba(237,232,223,.22);font-size:15px;color:#EDE8DF;transition:border-color .25s ease,color .25s ease,opacity .25s ease">&#8592;</button>
+      <figure data-stage style="margin:0;display:flex;flex-direction:column;align-items:center;min-width:0">
+        <sc-if value="{{ st.cur.isL }}" hint-placeholder-val="{{ true }}">
+            <div data-fbox onClick="{{ st.next }}" style="position:relative;width:min(100%,calc(64vh*4/3));aspect-ratio:4/3;overflow:hidden;background:#1E1C19;cursor:pointer">
+              <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:24px;text-align:center"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.16em;color:rgba(237,232,223,.4)">Frame {{ st.cur.n }}</span><span style="max-width:36ch;font-size:13px;line-height:1.45;color:rgba(237,232,223,.45)">{{ st.cur.alt }}</span></div>
+              <img data-fimg data-src="{{ st.cur.src }}" alt="{{ st.cur.alt }}" decoding="async" data-simg style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:transform .5s cubic-bezier(.22,1,.36,1),opacity .3s ease">
+              <span data-fnext aria-hidden="true" style="position:absolute;right:12px;bottom:12px;padding:5px 9px;border-radius:3px;background:rgba(20,19,17,.72);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:#EDE8DF;opacity:0;transition:opacity .25s ease">{{ st.hoverLabel }}</span>
+            </div>
+        </sc-if>
+        <sc-if value="{{ st.cur.isP }}" hint-placeholder-val="{{ false }}">
+            <div data-fbox onClick="{{ st.next }}" style="position:relative;width:min(100%,calc(64vh*3/4));aspect-ratio:3/4;overflow:hidden;background:#1E1C19;cursor:pointer">
+              <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:24px;text-align:center"><span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.16em;color:rgba(237,232,223,.4)">Frame {{ st.cur.n }}</span><span style="max-width:36ch;font-size:13px;line-height:1.45;color:rgba(237,232,223,.45)">{{ st.cur.alt }}</span></div>
+              <img data-fimg data-src="{{ st.cur.src }}" alt="{{ st.cur.alt }}" decoding="async" data-simg style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:transform .5s cubic-bezier(.22,1,.36,1),opacity .3s ease">
+              <span data-fnext aria-hidden="true" style="position:absolute;right:12px;bottom:12px;padding:5px 9px;border-radius:3px;background:rgba(20,19,17,.72);font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.14em;color:#EDE8DF;opacity:0;transition:opacity .25s ease">{{ st.hoverLabel }}</span>
+            </div>
+        </sc-if>
+        <sc-if value="{{ st.cur.isPayoff }}" hint-placeholder-val="{{ false }}"><div aria-hidden="true" style="height:clamp(16px,2vw,28px)"></div></sc-if>
+        <figcaption data-stage-cap style="width:100%;max-width:700px;margin-top:24px;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(20px,1.8vw,26px);line-height:1.35;color:#EDE8DF;text-align:left;text-wrap:pretty">{{ st.cur.caption }}</figcaption>
+      </figure>
+      <button type="button" onClick="{{ st.next }}" aria-label="{{ st.nextAria }}" data-sv-arrow style="all:unset;box-sizing:border-box;cursor:pointer;-webkit-tap-highlight-color:transparent;display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;border:1px solid rgba(237,232,223,.22);font-size:15px;color:#EDE8DF;transition:border-color .25s ease,color .25s ease">&#8594;</button>
+    </div>
+    <div role="tablist" aria-label="Frames" style="display:flex;gap:8px;margin-top:clamp(40px,5vw,56px);padding-top:20px;border-top:1px solid rgba(237,232,223,.08);overflow-x:auto;scrollbar-width:none">
+      <sc-for list="{{ st.frames }}" as="f" hint-placeholder-count="9">
+        <button type="button" role="tab" data-thumb data-active="{{ f.activeStr }}" aria-selected="{{ f.activeStr }}" aria-label="Frame {{ f.n }}" onClick="{{ f.go }}" style="all:unset;box-sizing:border-box;cursor:pointer;-webkit-tap-highlight-color:transparent;flex:0 0 auto;display:flex;flex-direction:column;gap:6px;width:72px">
+          <span style="position:relative;display:block;width:72px;height:50px;overflow:hidden;border-radius:3px;background:#24211D;border:1px solid transparent;transition:border-color .25s ease,opacity .25s ease" data-thumb-img><img data-src="{{ f.src }}" alt="" loading="lazy" decoding="async" data-simg style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0"></span>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;color:rgba(237,232,223,.45)">{{ f.n }}</span>
+        </button>
+      </sc-for>
+    </div>
+  </div>
+
+  <div data-vmob style="display:none;flex-direction:column;padding:36px 16px 0" data-swipe>
+    <sc-for list="{{ st.frames }}" as="f" hint-placeholder-count="9">
+      <figure data-mframe data-i="{{ f.i }}" id="sv-f-{{ f.n }}" style="margin:0 0 56px;display:flex;flex-direction:column;gap:16px">
+        <sc-if value="{{ f.isPayoff }}" hint-placeholder-val="{{ false }}"><div aria-hidden="true" style="height:32px"></div></sc-if>
+        <sc-if value="{{ f.isL }}" hint-placeholder-val="{{ true }}"><div style="position:relative;width:100%;aspect-ratio:4/3;overflow:hidden;background:#1E1C19"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:20px;text-align:center;font-size:12px;color:rgba(237,232,223,.4)">{{ f.alt }}</div><img data-src="{{ f.src }}" alt="{{ f.alt }}" loading="lazy" decoding="async" data-simg style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0"></div></sc-if>
+        <sc-if value="{{ f.isP }}" hint-placeholder-val="{{ false }}"><div style="position:relative;width:100%;aspect-ratio:3/4;overflow:hidden;background:#1E1C19"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:20px;text-align:center;font-size:12px;color:rgba(237,232,223,.4)">{{ f.alt }}</div><img data-src="{{ f.src }}" alt="{{ f.alt }}" loading="lazy" decoding="async" data-simg style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0"></div></sc-if>
+        <sc-if value="{{ f.isPayoff }}" hint-placeholder-val="{{ false }}"><div aria-hidden="true" style="height:12px"></div></sc-if>
+        <figcaption style="display:grid;grid-template-columns:30px minmax(0,1fr);gap:8px;font-size:16px;line-height:1.55;color:#EDE8DF"><span style="padding-top:4px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;color:rgba(237,232,223,.4)">{{ f.n }}</span><span style="text-wrap:pretty">{{ f.caption }}</span></figcaption>
+      </figure>
+    </sc-for>
+  </div>
+
+  <div style="max-width:1180px;margin:0 auto;padding:clamp(24px,4vw,48px) clamp(16px,4vw,48px) clamp(40px,6vw,72px);display:flex;justify-content:flex-end">
+    <button type="button" onClick="{{ st.openNext }}" style="all:unset;box-sizing:border-box;cursor:pointer;-webkit-tap-highlight-color:transparent;display:inline-flex;flex-direction:column;align-items:flex-end;gap:6px;min-height:44px;text-align:right" data-sv-nextstory>
+      <span style="font-family:'JetBrains Mono',monospace;text-transform:uppercase;font-size:10px;letter-spacing:.16em;color:rgba(237,232,223,.5)">{{ st.nextKicker }}</span>
+      <span style="display:inline-flex;align-items:center;gap:10px;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(22px,2vw,30px);line-height:1.05;color:#EDE8DF">{{ st.nextTitle }} <span data-narr aria-hidden="true" style="font-size:.7em;color:var(--accent);transition:transform .3s cubic-bezier(.22,1,.36,1)">&#8594;</span></span>
+    </button>
+  </div>
+</div>
+</sc-if>
+
+<footer id="contact" style="padding:clamp(48px,7vw,104px) clamp(20px,4vw,56px) 32px;background:var(--ink);color:var(--paper)">
+  <div style="max-width:1320px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(28px,4vw,56px)">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(251,249,246,.5)">Contact &#183; open to product design roles &amp; collaborations</span>
+    <a href="mailto:harshtaunk111@gmail.com" target="_blank" rel="noopener noreferrer" data-cursor="Copy email" style="display:block;font-family:'Instrument Serif',serif;font-size:clamp(34px,8.5vw,120px);line-height:.92;letter-spacing:-.03em;color:var(--paper);word-break:break-word;transition:color .3s ease" style-hover="color:var(--accent)">harshtaunk111@gmail.com</a>
+    <div data-frow style="display:flex;flex-wrap:wrap;gap:20px 36px;align-items:center;padding-top:24px;border-top:1px solid rgba(251,249,246,.18)">
+      <a href="tel:+917987970629" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;min-height:44px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(251,249,246,.78);transition:color .25s ease" style-hover="color:var(--accent)" aria-label="Call +91 7987970629" data-fsoc><span data-ftxt>+91 7987970629</span><span data-fico aria-hidden="true" style="display:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"></path></svg></span></a>
+      <a href="https://www.linkedin.com/in/harshtaunk/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;min-height:44px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(251,249,246,.78);transition:color .25s ease" style-hover="color:var(--accent)" aria-label="LinkedIn" data-fsoc><span data-ftxt>LinkedIn &#8599;</span><span data-fico aria-hidden="true" style="display:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"></path></svg></span></a>
+      <a href="https://www.instagram.com/harsh_010501/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;min-height:44px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(251,249,246,.78);transition:color .25s ease" style-hover="color:var(--accent)" aria-label="Instagram" data-fsoc><span data-ftxt>Instagram &#8599;</span><span data-fico aria-hidden="true" style="display:none"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"></circle></svg></span></a>
+      <a href="https://x.com/HARSHTAUNK1" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;min-height:44px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(251,249,246,.78);transition:color .25s ease" style-hover="color:var(--accent)" aria-label="X / Twitter" data-fsoc><span data-ftxt>X / Twitter &#8599;</span><span data-fico aria-hidden="true" style="display:none"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23zm-1.16 17.52h1.83L7.08 4.13H5.12z"></path></svg></span></a>
+      <span data-fcred style="margin-left:auto;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(251,249,246,.4)">Designed &amp; built with love by Harsh <span aria-label="love" style="color:var(--accent)">&#9829;</span></span>
+    </div>
+  </div>
+</footer>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#D9532B&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#D9532B&quot;,&quot;#1F6F5C&quot;,&quot;#3B4CCA&quot;,&quot;#B5476B&quot;],&quot;section&quot;:&quot;Theme&quot;},&quot;motion&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;expressive&quot;,&quot;options&quot;:[&quot;expressive&quot;,&quot;moderate&quot;,&quot;restrained&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Behavior&quot;},&quot;showNoticed&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;resumeUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;assets/Harsh_Resume_2026.pdf&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const data = window.HP_STORIES || [];
+    const pad = n => String(n).padStart(2, '0');
+    const { story: si = null, frame: fi = 0 } = this.state || {};
+    const stories = data.map((s, i) => ({ num: pad(i + 1), title: s.title, kicker: s.kicker, count: s.frames.length, cover: s.cover, coverName: s.title, open: e => this.openStory(i, 0, e && e.currentTarget) }));
+    let st = {};
+    if (si != null && data[si]) {
+      const s = data[si], n = s.frames.length, last = fi === n - 1, nx = data[si + 1];
+      const fr = s.frames.map((f, i) => ({ i, n: pad(i + 1), src: f.src, alt: f.alt, caption: f.caption, isL: f.orientation !== 'portrait', isP: f.orientation === 'portrait', isPayoff: i === n - 1, activeStr: String(i === fi), go: () => this.goFrame(i, true) }));
+      st = {
+        num: pad(si + 1), title: s.title, kicker: s.kicker, intro: s.intro, frames: fr, cur: fr[fi],
+        curN: pad(fi + 1), totalN: pad(n), noPrev: fi === 0,
+        hoverLabel: last ? 'next story →' : 'next frame →', nextAria: last ? 'Next story' : 'Next frame',
+        prev: () => this.goFrame(fi - 1), next: () => (last ? this.nextStory() : this.goFrame(fi + 1)),
+        close: () => this.closeStory(), openNext: () => this.nextStory(),
+        nextKicker: nx ? 'Next story — ' + pad(si + 2) : 'Next', nextTitle: nx ? nx.title : 'Back to all stories'
+      };
+    }
+    return { showNoticed: this.props.showNoticed ?? true, stories, viewerOpen: si != null && !!data[si], st };
+  }
+
+  componentDidMount() {
+    const root = document.documentElement;
+    if (this.props.accent) root.style.setProperty('--accent', this.props.accent);
+    this._cleanups = [];
+    this.bind();
+    this.bindNav();
+    this.bindAbout();
+    this.bindPeek();
+    this.bindPortrait();
+    this.bindTools();
+    const dl = e => {
+      const el = e.target.closest('a[href$=".pdf"],[data-resume],[data-hero-resume],[data-ab-resume],[data-mlink="resume"]');
+      if (!el) return;
+      const u = (this.props.resumeUrl || 'assets/Harsh_Resume_2026.pdf').trim();
+      e.preventDefault(); e.stopPropagation();
+      fetch(u).then(r => r.blob()).then(b => {
+        const url = URL.createObjectURL(b), x = document.createElement('a');
+        x.href = url; x.download = 'Harsh_Resume_2026.pdf'; document.body.appendChild(x); x.click(); x.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 4000);
+      }).catch(() => { location.href = u; });
+    };
+    document.addEventListener('click', dl, true);
+    this._cleanups.push(() => document.removeEventListener('click', dl, true));
+    const hn = document.querySelector('[data-hname]');
+    if (hn) {
+      let hovered = false, autoOn = false;
+      const markH = () => { hovered = true; if (autoOn) { autoOn = false; hn.removeAttribute('data-on'); } };
+      hn.addEventListener('mouseenter', markH); hn.addEventListener('focus', markH);
+      const t1 = setTimeout(() => {
+        if (hovered || hn.hasAttribute('data-on')) return;
+        const r = hn.getBoundingClientRect(); if (r.bottom < 0 || r.top > innerHeight) return;
+        autoOn = true; hn.setAttribute('data-on', '');
+        t2 = setTimeout(() => { if (autoOn) { autoOn = false; hn.removeAttribute('data-on'); } }, 5000);
+      }, 7000);
+      let t2 = 0;
+      this._cleanups.push(() => { clearTimeout(t1); clearTimeout(t2); hn.removeEventListener('mouseenter', markH); hn.removeEventListener('focus', markH); });
+      const tg = e => { if (!matchMedia('(hover: none)').matches) return; e.stopPropagation(); if (hn.hasAttribute('data-on')) hn.removeAttribute('data-on'); else hn.setAttribute('data-on', ''); };
+      const off = () => hn.removeAttribute('data-on');
+      hn.addEventListener('click', tg); document.addEventListener('click', off);
+      this._cleanups.push(() => { hn.removeEventListener('click', tg); document.removeEventListener('click', off); });
+    }
+    this.bindWork();
+    this.bindImgs();
+    if (!window.HP_STORIES) { let n = 0; const w = setInterval(() => { if (window.HP_STORIES || ++n > 100) { clearInterval(w); this.forceUpdate(); } }, 50); this._cleanups.push(() => clearInterval(w)); }
+  }
+
+  componentDidUpdate() { this.bind(); this.storyUpdate(); this.bindImgs(); }
+
+  bindImgs() {
+    document.querySelectorAll('img[data-simg]').forEach(im => {
+      const ok = () => { im.style.opacity = '1'; }, bad = () => { im.style.opacity = '0'; };
+      if (!im._sb) { im._sb = 1; im.addEventListener('load', ok); im.addEventListener('error', bad); }
+      const ds = im.getAttribute('data-src'); if (ds && ds.indexOf('{{') < 0 && im.getAttribute('src') !== ds) { im.style.opacity = '0'; im.setAttribute('src', ds); return; }
+      if (im.complete) (im.naturalWidth ? ok : bad)();
+    });
+  }
+
+  openStory(i, f, from) { this._storyFrom = from || this._storyFrom; this.setState({ story: i, frame: f || 0 }); }
+  closeStory() { document.documentElement.style.overflow = ''; this.setState({ story: null, frame: 0 }); }
+  goFrame(i, scroll) {
+    const s = (window.HP_STORIES || [])[this.state && this.state.story]; if (!s) return;
+    const k = Math.max(0, Math.min(s.frames.length - 1, i));
+    if (k !== this.state.frame) this.setState({ frame: k });
+    if (scroll && innerWidth < 768) { const el = document.getElementById('sv-f-' + String(k + 1).padStart(2, '0')), v = document.querySelector('[data-viewer]'); if (el && v) v.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' }); }
+  }
+  nextStory() {
+    const d = window.HP_STORIES || [], n = this.state.story + 1;
+    if (n < d.length) { this.setState({ story: n, frame: 0 }); const v = document.querySelector('[data-viewer]'); if (v) v.scrollTo({ top: 0 }); }
+    else this.closeStory();
+  }
+  storyUpdate() {
+    const ps = this._svPrev || {}, s = this.state || {};
+    this._svPrev = { story: s.story, frame: s.frame };
+    const open = s.story != null, was = ps.story != null;
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const data = window.HP_STORIES || [];
+    if (open && !this._svKey) {
+      document.documentElement.style.overflow = 'hidden';
+      const key = e => {
+        if (this.state.story == null) return;
+        if (e.key === 'ArrowRight') { e.preventDefault(); const st = data[this.state.story]; if (this.state.frame >= st.frames.length - 1) this.nextStory(); else this.goFrame(this.state.frame + 1, true); }
+        else if (e.key === 'ArrowLeft') { e.preventDefault(); this.goFrame(this.state.frame - 1, true); }
+        else if (e.key === 'Escape') { e.preventDefault(); this.closeStory(); }
+      };
+      document.addEventListener('keydown', key); this._svKey = () => document.removeEventListener('keydown', key);
+      setTimeout(() => { const b = document.querySelector('[data-sv-back]'); if (b) b.focus({ preventScroll: true }); }, 60);
+    }
+    if (!open) {
+      if (was) document.documentElement.style.overflow = '';
+      if (this._svKey) { this._svKey(); this._svKey = null; }
+      if (this._svIO) { this._svIO.disconnect(); this._svIO = null; }
+      if (was && this._storyFrom) this._storyFrom.focus({ preventScroll: true });
+      return;
+    }
+    const storyChanged = s.story !== ps.story, frameChanged = storyChanged || s.frame !== ps.frame;
+    if (frameChanged) {
+      const st = data[s.story], last = s.frame === st.frames.length - 1;
+      const nf = st.frames[s.frame + 1]; if (nf) { const im = new Image(); im.src = nf.src; }
+      const stage = document.querySelector('[data-stage]'), cap = document.querySelector('[data-stage-cap]');
+      if (stage && stage.animate && innerWidth >= 768) {
+        const d = reduce ? 150 : (last ? 900 : 520);
+        stage.animate(reduce ? [{ opacity: 0 }, { opacity: 1 }] : [{ opacity: 0, transform: 'translateY(14px)' }, { opacity: 1, transform: 'none' }], { duration: d, easing: 'cubic-bezier(.22,1,.36,1)' });
+        if (cap) cap.animate([{ opacity: 0 }, { opacity: 0, offset: reduce ? 0 : .01 }, { opacity: 1 }], { duration: reduce ? 150 : (last ? 1100 : 520), delay: reduce ? 0 : (last ? 700 : 160), easing: 'ease-out', fill: 'backwards' });
+      }
+      const active = document.querySelector('[data-thumb][data-active="true"]');
+      if (active && active.parentElement) { const p = active.parentElement; p.scrollLeft = Math.max(0, active.offsetLeft - p.clientWidth / 2 + 36); }
+    }
+    if (storyChanged) {
+      if (this._svIO) this._svIO.disconnect();
+      const v = document.querySelector('[data-viewer]');
+      const frames = Array.from(document.querySelectorAll('[data-mframe]'));
+      if (v && 'IntersectionObserver' in window) {
+        this._svIO = new IntersectionObserver(es => es.forEach(e => {
+          const el = e.target;
+          if (e.isIntersecting && !el.dataset.shown) {
+            el.dataset.shown = '1';
+            const payoff = +el.dataset.i === frames.length - 1;
+            if (!reduce && el.animate) {
+              const img = el.querySelector('div[style*="aspect-ratio"]'), cap = el.querySelector('figcaption');
+              if (img) img.animate([{ opacity: 0, transform: 'translateY(14px)' }, { opacity: 1, transform: 'none' }], { duration: payoff ? 900 : 600, easing: 'cubic-bezier(.22,1,.36,1)', fill: 'backwards' });
+              if (cap) cap.animate([{ opacity: 0, transform: 'translateY(6px)' }, { opacity: 1, transform: 'none' }], { duration: payoff ? 800 : 500, delay: payoff ? 600 : 180, easing: 'ease-out', fill: 'backwards' });
+            }
+          }
+          if (innerWidth < 768 && e.isIntersecting && e.intersectionRatio > 0.5) { const i = +el.dataset.i; if (i !== this.state.frame) this.setState({ frame: i }); }
+        }), { root: v, threshold: [0.12, 0.55] });
+        frames.forEach(f => this._svIO.observe(f));
+      }
+      const sw = document.querySelector('[data-swipe]');
+      if (sw && !sw.dataset.bound) {
+        sw.dataset.bound = '1'; let x0 = 0, y0 = 0;
+        sw.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; }, { passive: true });
+        sw.addEventListener('touchend', e => { const dx = e.changedTouches[0].clientX - x0, dy = e.changedTouches[0].clientY - y0; if (Math.abs(dx) > 50 && Math.abs(dy) < 40) this.goFrame(this.state.frame + (dx < 0 ? 1 : -1), true); }, { passive: true });
+      }
+    }
+  }
+
+  bind() {
+    const motion = this.props.motion || 'expressive';
+
+    // scroll reveals — additive: content is visible by default, entry animation only
+    if (motion !== 'restrained' && 'IntersectionObserver' in window) {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.style.animation = 'hp-rise .8s cubic-bezier(.2,.8,.2,1) both';
+            io.unobserve(e.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -10% 0px', threshold: 0.1 });
+      document.querySelectorAll('[data-reveal]').forEach(el => {
+        if (el.dataset.hpRevealed) return;
+        el.dataset.hpRevealed = '1';
+        io.observe(el);
+      });
+      this._cleanups.push(() => io.disconnect());
+    }
+
+    if (this._navBound) return;
+    this._navBound = true;
+
+    if (motion === 'restrained') return;
+
+    // cursor chip + hero parallax
+    const chip = document.getElementById('hp-cursor');
+    const label = document.getElementById('hp-cursor-label');
+    const parallax = Array.from(document.querySelectorAll('[data-parallax]'));
+    const base = new WeakMap();
+    parallax.forEach(el => base.set(el, el.style.transform || ''));
+    let raf = null, mx = 0, my = 0, hot = false;
+
+    const onMove = e => {
+      mx = e.clientX; my = e.clientY;
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = null;
+        if (chip) chip.style.translate = mx + 'px ' + my + 'px';
+        const nx = (mx / window.innerWidth - 0.5) * 2;
+        const ny = (my / window.innerHeight - 0.5) * 2;
+        parallax.forEach(el => {
+          const d = parseFloat(el.dataset.depth || '14');
+          el.style.translate = (nx * d).toFixed(1) + 'px ' + (ny * d * 0.55).toFixed(1) + 'px';
+        });
+      });
+    };
+    window.addEventListener('mousemove', onMove, { passive: true });
+    this._cleanups.push(() => window.removeEventListener('mousemove', onMove));
+
+    document.querySelectorAll('[data-cursor]').forEach(el => {
+      if (el.dataset.hpCursorBound) return;
+      el.dataset.hpCursorBound = '1';
+      const enter = () => {
+        hot = true;
+        if (label) label.textContent = el.dataset.cursor;
+        if (chip) { chip.style.opacity = '1'; chip.style.transform = 'translate(-50%,-160%) scale(1)'; }
+      };
+      const leave = () => {
+        hot = false;
+        if (chip) { chip.style.opacity = '0'; chip.style.transform = 'translate(-50%,-160%) scale(.6)'; }
+      };
+      el.addEventListener('mouseenter', enter);
+      el.addEventListener('mouseleave', leave);
+      this._cleanups.push(() => { el.removeEventListener('mouseenter', enter); el.removeEventListener('mouseleave', leave); });
+    });
+  }
+
+  bindWork() {
+    const cards = Array.from(document.querySelectorAll('[data-wc]'));
+    if (!cards.length) return;
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches || this.props.motion === 'restrained';
+    if ('IntersectionObserver' in window) {
+      const prep = c => {
+        c.style.opacity = '0';
+        if (!reduce) c.style.transform = 'translateY(20px)';
+        const im = c.querySelector('[data-wimg]'); if (im && !reduce) im.style.transform = 'translateY(12px)';
+      };
+      const play = (c, k) => {
+        const ease = 'cubic-bezier(.2,.8,.2,1)', d = reduce ? 0 : k * 100;
+        c.style.transition = 'opacity .6s ease-out ' + d + 'ms, transform .6s ' + ease + ' ' + d + 'ms';
+        c.style.opacity = '1'; c.style.transform = '';
+        const im = c.querySelector('[data-wimg]');
+        if (im) { im.style.transition = 'transform .6s ' + ease + ' ' + (d + 80) + 'ms'; im.style.transform = ''; }
+        setTimeout(() => { c.style.transition = ''; if (im) im.style.transition = ''; }, 800 + d);
+      };
+      const io = new IntersectionObserver(es => { let k = 0; es.forEach(e => { if (e.isIntersecting) { play(e.target, k++); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+      cards.forEach(c => { if (c.getBoundingClientRect().top > innerHeight * 0.92) { prep(c); io.observe(c); } });
+      this._cleanups.push(() => io.disconnect());
+    }
+    if (reduce) return;
+    const layers = cards.map(c => c.querySelector('[data-wp]')).filter(Boolean);
+    let raf = null;
+    const tick = () => {
+      raf = null;
+      const vh = innerHeight, amp = innerWidth <= 767 ? 4 : 8;
+      layers.forEach(l => {
+        const r = l.parentElement.getBoundingClientRect();
+        if (r.bottom < -100 || r.top > vh + 100) return;
+        const p = Math.max(-1, Math.min(1, (r.top + r.height / 2 - vh / 2) / vh));
+        l.style.transform = 'translate3d(0,' + (p * amp).toFixed(2) + 'px,0) scale(1.03)';
+      });
+    };
+    const onS = () => { if (!raf) raf = requestAnimationFrame(tick); };
+    addEventListener('scroll', onS, { passive: true }); addEventListener('resize', onS); tick();
+    this._cleanups.push(() => { removeEventListener('scroll', onS); removeEventListener('resize', onS); });
+  }
+
+  bindTools() {
+    const stage = document.querySelector('[data-ts-stage]'); if (!stage) return;
+    const cards = Array.from(stage.querySelectorAll('[data-tcard]'));
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let base = [];
+    const measure = () => {
+      cards.forEach(c => { c.style.transform = 'none'; });
+      const sr = stage.getBoundingClientRect();
+      base = cards.map(c => { const r = c.getBoundingClientRect(); return { x: r.left + r.width / 2 - sr.left - sr.width / 2, y: r.top + r.height / 2 - sr.top - sr.height / 2 }; });
+    };
+    const ease = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+    const clamp = x => Math.max(0, Math.min(1, x));
+    let raf = 0;
+    const draw = () => {
+      raf = 0;
+      const r = stage.getBoundingClientRect(), vh = innerHeight;
+      const p = reduce ? 1 : clamp((vh * .92 - r.top) / (vh * .6));
+      const W = stage.clientWidth, Hh = stage.clientHeight, n = cards.length;
+      cards.forEach((c, k) => {
+        const q = ease(clamp((p - k * .025) / (1 - .025 * (n - 1) - .05)));
+        const d = c.dataset, b = base[k] || { x: 0, y: 0 };
+        const tx = (+d.sx * W - b.x) * (1 - q), ty = (+d.sy * Hh * 1.1 - b.y) * (1 - q);
+        const rot = +d.sr * (1 - q), sc = 1 + (+d.ss - 1) * (1 - q);
+        c.style.transform = 'translate(' + tx.toFixed(1) + 'px,' + ty.toFixed(1) + 'px) rotate(' + rot.toFixed(2) + 'deg) scale(' + sc.toFixed(3) + ')';
+      });
+      if (p >= .999) stage.setAttribute('data-ts-done', ''); else stage.removeAttribute('data-ts-done');
+    };
+    const req = () => { if (!raf) raf = requestAnimationFrame(draw); };
+    const re = () => { measure(); draw(); };
+    re(); if (document.fonts) document.fonts.ready.then(re);
+    addEventListener('scroll', req, { passive: true }); addEventListener('resize', re);
+    this._cleanups.push(() => { removeEventListener('scroll', req); removeEventListener('resize', re); cancelAnimationFrame(raf); });
+  }
+
+  bindPortrait() {
+    const f = document.querySelector('[data-ab-photo]'); if (!f) return;
+    const cue = f.querySelector('[data-ab-cue]');
+    const pre = new Image(); pre.src = 'assets/about/portrait-color.jpg';
+    const on = (el, ev, fn) => { el.addEventListener(ev, fn); this._cleanups.push(() => el.removeEventListener(ev, fn)); };
+    const touch = () => matchMedia('(hover: none)').matches;
+    let seen = false;
+    const showCue = v => { if (!cue) return; cue.style.opacity = v ? '1' : '0'; cue.style.transform = v ? 'none' : 'translateY(4px)'; };
+    const col = f.querySelector('[data-ab-color]');
+    const fade = v => { if (!col) return; col.style.transition = 'opacity .7s cubic-bezier(.22,1,.36,1)'; requestAnimationFrame(() => { col.style.opacity = v ? '1' : '0'; }); };
+    on(f, 'mouseenter', () => { if (touch()) return; fade(true); if (!seen) showCue(true); });
+    on(f, 'mouseleave', () => { if (touch()) return; if (!f.hasAttribute('data-color-on')) fade(false); if (cue && cue.style.opacity === '1') seen = true; showCue(false); });
+    const toggle = () => { const v = !f.hasAttribute('data-color-on'); if (v) f.setAttribute('data-color-on', ''); else f.removeAttribute('data-color-on'); fade(v); f.setAttribute('aria-pressed', String(v)); f.setAttribute('aria-label', v ? 'Portrait of Harsh — show black and white version' : 'Portrait of Harsh — show colour version'); };
+    on(f, 'click', () => { if (touch()) { toggle(); if (!seen) { seen = true; showCue(true); setTimeout(() => showCue(false), 1600); } } });
+    on(f, 'keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+  }
+
+  bindPeek() {
+    const trigs = Array.from(document.querySelectorAll('#about [data-pv]'));
+    if (!trigs.length) return;
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const touch = () => matchMedia('(hover: none)').matches;
+    const on = (el, ev, fn, o) => { el.addEventListener(ev, fn, o); this._cleanups.push(() => el.removeEventListener(ev, fn, o)); };
+    let cur = null, hideT = null, stT = [];
+    const cardOf = k => document.querySelector('[data-pvc="' + k + '"]');
+    const place = (tr, c) => {
+      const col = c.parentElement, cr = col.getBoundingClientRect(), r = tr.getBoundingClientRect();
+      const cw = c.offsetWidth, ch = c.offsetHeight, W = col.clientWidth, narrow = innerWidth < 768;
+      let x, y;
+      const row = tr.closest('[data-pvrow]');
+      const tRight = row ? Math.max(tr.getBoundingClientRect().right, row.querySelector('span:last-child span:last-child').getBoundingClientRect().right) - cr.left : 0;
+      if (row && !narrow && W - tRight >= cw + 16) {
+        const rr = row.getBoundingClientRect();
+        x = W - cw; y = rr.top - cr.top + rr.height / 2 - ch / 2;
+      } else if (row) {
+        const rr = row.getBoundingClientRect();
+        x = Math.max(44, tr.getBoundingClientRect().left - cr.left);
+        const below = rr.bottom - cr.top + 12;
+        y = (below + ch > col.clientHeight + 40 && rr.top - cr.top - ch - 12 > 0) ? rr.top - cr.top - ch - 12 : below;
+      } else {
+        const rects = tr.getClientRects(), f = rects[0];
+        x = f.left - cr.left + f.width / 2 - cw / 2;
+        y = narrow ? (rects[rects.length - 1].bottom - cr.top + 14) : (f.top - cr.top - ch - 14);
+      }
+      x = Math.max(-8, Math.min(x, W - cw + 8));
+      c.style.left = x + 'px'; c.style.top = y + 'px';
+    };
+    const show = (k, tr) => {
+      clearTimeout(hideT);
+      if (cur && cur !== k) hide(cur, true);
+      const c = cardOf(k); if (!c) return;
+      cur = k; place(tr, c);
+      trigs.forEach(x => x.setAttribute('aria-expanded', String(x.dataset.pv === k)));
+      c.setAttribute('aria-hidden', 'false');
+      c.style.transition = 'opacity .3s cubic-bezier(.22,1,.36,1),transform .3s cubic-bezier(.22,1,.36,1),visibility 0s';
+      c.style.visibility = 'visible'; c.style.opacity = '1'; c.style.pointerEvents = touch() ? 'auto' : 'none';
+      c.style.transform = reduce ? 'rotate(' + c.dataset.rot + 'deg)' : 'translateY(0) scale(1) rotate(' + c.dataset.rot + 'deg)';
+      const st = Array.from(c.querySelectorAll('[data-st]'));
+      stT.forEach(clearTimeout); stT = [];
+      st.forEach(el => { el.style.transition = 'none'; el.style.opacity = '0'; el.style.transform = 'translateY(4px)'; });
+      st.forEach(el => { const i = +el.dataset.st; stT.push(setTimeout(() => { el.style.transition = 'opacity .28s ease-out, transform .28s cubic-bezier(.22,1,.36,1)'; el.style.opacity = '1'; el.style.transform = 'none'; }, reduce ? 0 : 120 + i * 240)); });
+      c.querySelectorAll('[data-nudge]').forEach(n => { n.style.transform = reduce ? '' : 'translateX(' + n.dataset.nudge + 'px)'; });
+      const d = c.querySelector('[data-drift]'); if (d && !reduce) { d.style.transition = 'none'; d.style.transform = 'scale(1.08) translate(4px,3px)'; requestAnimationFrame(() => { d.style.transition = 'transform 3.2s cubic-bezier(.22,1,.36,1)'; d.style.transform = 'scale(1.08) translate(-4px,-2px)'; }); }
+    };
+    const hide = (k, fast) => {
+      const c = cardOf(k); if (!c) return;
+      c.setAttribute('aria-hidden', 'true');
+      c.style.transition = 'opacity ' + (fast ? '.15s' : '.25s') + ' ease-out,transform .25s ease-out,visibility 0s linear ' + (fast ? '.15s' : '.25s');
+      c.style.opacity = '0'; c.style.visibility = 'hidden'; c.style.pointerEvents = 'none';
+      c.style.transform = reduce ? 'rotate(' + c.dataset.rot + 'deg)' : 'translateY(4px) scale(.985) rotate(' + c.dataset.rot + 'deg)';
+      c.querySelectorAll('[data-nudge]').forEach(n => { n.style.transform = ''; });
+      trigs.forEach(x => { if (x.dataset.pv === k) x.setAttribute('aria-expanded', 'false'); });
+      if (cur === k) cur = null;
+    };
+    trigs.forEach(tr => {
+      const k = tr.dataset.pv;
+      on(tr, 'mouseenter', () => { if (!touch()) show(k, tr); });
+      on(tr, 'mouseleave', () => { if (!touch()) hideT = setTimeout(() => hide(k), 90); });
+      on(tr, 'focus', () => { if (!touch()) show(k, tr); });
+      on(tr, 'blur', () => { if (!touch()) hide(k); });
+      on(tr, 'click', e => { if (!touch()) return; e.stopPropagation(); if (cur === k) hide(k); else show(k, tr); });
+      on(tr, 'keydown', e => { if (e.key === 'Escape') hide(k); if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (cur === k) hide(k); else show(k, tr); } });
+    });
+    on(document, 'click', e => { if (cur && touch() && !e.target.closest('[data-pvc]')) hide(cur); });
+    on(window, 'resize', () => { if (cur) hide(cur, true); });
+    const rs = document.querySelector('[data-ab-resume]');
+    if (rs) on(rs, 'click', e => { const u = (this.props.resumeUrl || 'assets/Harsh_Resume_2026.pdf').trim(); if (u) { e.preventDefault(); window.open(u, '_blank', 'noopener'); } });
+  }
+
+  bindAbout() {
+    const els = Array.from(document.querySelectorAll('#about [data-ab]'));
+    const photo = document.querySelector('[data-ab-photo]');
+    if (!els.length) return;
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const base = el => el.hasAttribute('data-ab-photo') ? 'rotate(-2.5deg)' : el.hasAttribute('data-ab-sticky') ? 'rotate(5deg)' : el.hasAttribute('data-ab-note') ? getComputedStyle(el).transform.replace('none', '') : '';
+    const from = el => { const k = +el.dataset.ab; if (reduce) return base(el); if (k === 4) return 'rotate(-6deg) translateY(14px)'; if (k === 6) return 'rotate(9deg) translateY(10px) scale(.96)'; if (k === 0 || k === 5 || k === 3) return (base(el) + ' translateY(6px)').trim(); return 'translateY(22px)'; };
+    const delay = [0, 120, 520, 380, 460, 760, 900];
+    const dur = [400, 600, 420, 500, 600, 420, 460];
+    els.forEach(el => { el.dataset.abBase = base(el); el.style.opacity = '0'; el.style.transform = from(el); });
+    const play = () => {
+      els.forEach(el => {
+        const k = +el.dataset.ab, d = reduce ? 0 : delay[k], du = reduce ? 300 : dur[k];
+        el.style.transition = 'opacity ' + du + 'ms ease-out ' + d + 'ms, transform ' + du + 'ms cubic-bezier(.2,.8,.2,1) ' + d + 'ms';
+        el.style.opacity = '1'; el.style.transform = el.dataset.abBase;
+      });
+      setTimeout(() => { els.forEach(el => { el.style.transition = ''; }); if (photo) photo.setAttribute('data-ab-done', ''); }, reduce ? 320 : 1500);
+    };
+    const hero = document.querySelector('[data-ab-hero]');
+    if (!('IntersectionObserver' in window) || !hero) { play(); return; }
+    const io = new IntersectionObserver(es => { if (es.some(e => e.isIntersecting)) { play(); io.disconnect(); } }, { threshold: 0.2 });
+    io.observe(hero); this._cleanups.push(() => io.disconnect());
+  }
+
+  bindNav() {
+    const nav = document.getElementById('hp-nav'), inner = document.getElementById('hp-nav-in');
+    const uline = document.getElementById('hp-uline'), wrap = document.getElementById('hp-links');
+    const menu = document.getElementById('hp-menu'), panel = document.getElementById('hp-menu-panel'), bg = document.getElementById('hp-menu-bg');
+    const burger = document.getElementById('hp-burger'), closeBtn = document.getElementById('hp-close');
+    if (!nav) return;
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const resumeUrl = () => (this.props.resumeUrl || 'assets/Harsh_Resume_2026.pdf').trim();
+    const on = (el, ev, fn, o) => { el.addEventListener(ev, fn, o); this._cleanups.push(() => el.removeEventListener(ev, fn, o)); };
+
+    const onScroll = () => {
+      const s = scrollY > 8;
+      nav.style.background = s ? 'rgba(244,241,236,.9)' : 'rgba(244,241,236,0)';
+      nav.style.backdropFilter = nav.style.webkitBackdropFilter = s ? 'blur(12px)' : 'none';
+      nav.style.borderBottomColor = s ? 'rgba(23,22,20,.12)' : 'rgba(23,22,20,.06)';
+      nav.style.boxShadow = s ? '0 10px 30px -24px rgba(23,22,20,.35)' : 'none';
+      if (innerWidth > 767) inner.style.height = s ? '62px' : '68px'; else inner.style.height = '';
+    };
+    on(window, 'scroll', onScroll, { passive: true }); onScroll();
+
+    const links = Array.from(document.querySelectorAll('[data-navlink],[data-resume]'));
+    const mlinks = Array.from(document.querySelectorAll('[data-mlink]'));
+    let active = null;
+    const setActive = id => {
+      active = id;
+      links.forEach(l => { const k = l.dataset.navlink || 'resume'; l.style.color = k === id ? 'var(--accent)' : ''; });
+      mlinks.forEach(l => { const k = l.dataset.mlink; l.style.color = k === id ? 'var(--accent)' : ''; const ln = l.querySelector('[data-mline]'); if (ln) ln.style.width = k === id ? '40px' : ''; });
+      const el = links.find(l => (l.dataset.navlink || 'resume') === id);
+      if (!uline) return;
+      if (!el) { uline.style.opacity = '0'; return; }
+      uline.style.opacity = '1';
+      uline.style.width = el.offsetWidth + 'px';
+      uline.style.transform = 'translateX(' + el.offsetLeft + 'px)';
+    };
+    const ids = ['work', 'about', 'resume', 'noticed', 'contact'];
+    const pick = () => {
+      const y = innerHeight * 0.35; let cur = null;
+      ids.forEach(id => { const el = document.getElementById(id); if (el && el.offsetParent !== null && el.getBoundingClientRect().top <= y) cur = id; });
+      if (cur === 'contact') cur = null;
+      if (cur !== active) setActive(cur);
+    };
+    on(window, 'scroll', pick, { passive: true }); on(window, 'resize', () => setActive(active)); pick();
+    if (document.fonts) document.fonts.ready.then(() => setActive(active));
+
+    const go = id => {
+      const el = document.getElementById(id); if (!el) return;
+      const top = id === 'top' ? 0 : el.getBoundingClientRect().top + scrollY - nav.offsetHeight + 1;
+      scrollTo({ top, behavior: reduce ? 'auto' : 'smooth' });
+    };
+    const openResume = e => {
+      const u = resumeUrl();
+      if (u) { e.preventDefault(); window.open(u, '_blank', 'noopener'); return true; }
+      return false;
+    };
+
+    let open = false;
+    const items = Array.from(menu.querySelectorAll('[data-mi]')), conn = menu.querySelector('[data-mconn]'), rows = Array.from(menu.querySelectorAll('[data-mc]'));
+    const setMenu = (v, then) => {
+      open = v;
+      burger.setAttribute('aria-expanded', String(v));
+      menu.setAttribute('aria-hidden', String(!v));
+      document.documentElement.style.overflow = v ? 'hidden' : '';
+      const d = reduce ? 0 : 1;
+      if (v) {
+        menu.style.visibility = 'visible'; menu.style.pointerEvents = 'auto';
+        bg.style.opacity = '1'; panel.style.transitionDelay = '0ms'; panel.style.clipPath = 'inset(0 0 0% 0)';
+        closeBtn.style.transitionDelay = 120 * d + 'ms'; closeBtn.style.opacity = '1'; closeBtn.style.transform = 'none';
+        items.forEach((it, i) => { it.style.transitionDelay = (160 + i * 45) * d + 'ms'; it.style.opacity = '1'; it.style.transform = 'none'; });
+        conn.style.transitionDelay = 330 * d + 'ms'; conn.style.opacity = '1';
+        rows.forEach((r, i) => { r.style.transitionDelay = (360 + i * 25) * d + 'ms'; r.style.opacity = '1'; r.style.transform = 'none'; });
+        setTimeout(() => closeBtn.focus(), 200);
+      } else {
+        rows.slice().reverse().forEach((r, i) => { r.style.transitionDelay = i * 15 * d + 'ms'; r.style.opacity = '0'; r.style.transform = 'translateY(8px)'; });
+        conn.style.transitionDelay = 60 * d + 'ms'; conn.style.opacity = '0';
+        items.slice().reverse().forEach((it, i) => { it.style.transitionDelay = (70 + i * 30) * d + 'ms'; it.style.opacity = '0'; it.style.transform = 'translateY(14px)'; });
+        closeBtn.style.transitionDelay = 120 * d + 'ms'; closeBtn.style.opacity = '0'; closeBtn.style.transform = 'rotate(-45deg)';
+        panel.style.transitionDelay = 160 * d + 'ms'; panel.style.clipPath = 'inset(0 0 100% 0)'; bg.style.opacity = '0';
+        setTimeout(() => { if (!open) { menu.style.visibility = 'hidden'; menu.style.pointerEvents = 'none'; } if (then) then(); }, 520 * d);
+        burger.focus({ preventScroll: true });
+      }
+    };
+    on(burger, 'click', () => setMenu(true));
+    on(closeBtn, 'click', () => setMenu(false));
+    on(bg, 'click', () => setMenu(false));
+    on(document, 'keydown', e => {
+      if (!open) return;
+      if (e.key === 'Escape') setMenu(false);
+      if (e.key === 'Tab') {
+        const f = Array.from(panel.querySelectorAll('a,button')); const a = f[0], z = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === a) { e.preventDefault(); z.focus(); }
+        else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); }
+      }
+    });
+    on(window, 'resize', () => { if (open && innerWidth > 767) setMenu(false); });
+
+    links.forEach(l => on(l, 'click', e => { if (l.hasAttribute('data-resume') && openResume(e)) return; e.preventDefault(); go(l.dataset.navlink || 'resume'); }));
+    document.querySelectorAll('[data-navtop],[data-navcontact]').forEach(l => on(l, 'click', e => { e.preventDefault(); go(l.hasAttribute('data-navtop') ? 'top' : 'contact'); }));
+    mlinks.forEach(l => on(l, 'click', e => {
+      const id = l.dataset.mlink;
+      if (id === 'resume') { setMenu(false); return; }
+      e.preventDefault(); setActive(id === 'top' ? null : id); setMenu(false, () => go(id));
+    }));
+  }
+
+  componentWillUnmount() {
+    if (this._svKey) this._svKey(); if (this._svIO) this._svIO.disconnect();
+    document.documentElement.style.overflow = '';
+    (this._cleanups || []).forEach(fn => fn());
+  }
+}
+</script>
+</body>
+</html>
